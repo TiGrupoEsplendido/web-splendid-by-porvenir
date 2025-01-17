@@ -1,0 +1,19 @@
+{
+  "name": "grupo-esplendido",
+  "version": "1.0.0",
+  "description": "Página web de canes agro",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css --load-path=node_modules"
+  },
+  "author": "Kelvin",
+  "license": "ISC",
+  "devDependencies": {
+    "aos": "^2.3.4",
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "hamburgers": "^1.2.1"
+  }
+}
