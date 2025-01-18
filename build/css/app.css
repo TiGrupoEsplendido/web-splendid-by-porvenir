@@ -439,6 +439,7 @@ template {
   padding: 0.5rem;
   display: none;
   position: fixed;
+  z-index: 2;
 }
 @media (min-width: 992px) {
   .email-tel {
@@ -496,6 +497,7 @@ template {
     gap: 10rem;
     justify-content: space-around;
     padding-top: 1rem;
+    z-index: 2;
   }
 }
 .header__container .header__lista {
@@ -583,6 +585,57 @@ template {
   .portada__container {
     background-image: none;
   }
+}
+
+.swiper {
+  display: none !important;
+}
+@media (min-width: 992px) {
+  .swiper {
+    display: block !important;
+  }
+}
+.swiper .swiper-slide a {
+  width: 100%;
+}
+.swiper .swiper-slide .card {
+  width: 100%;
+  height: 100dvh;
+}
+
+.card__img__keitt {
+  background-image: url(../../img/portada/Portada-Keitt-Kong.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card__img__sunshine {
+  background-image: url(../../img/portada/portada-mexico-sunshine.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card__img__jaguar {
+  background-image: url(../../img/portada/portada-jaguar-mango.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card__img__bali {
+  background-image: url(../../img/portada/portada-bali-mango.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card__img__splendid {
+  background-image: url(../../img/portada/Portada-Splendid.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .logros__container {
