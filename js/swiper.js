@@ -1,31 +1,23 @@
 // Inicializa Swiper con configuración básica
 const swiper = new Swiper('.swiper', {
   // Configuración por defecto (móvil primero)
+  effect: "creative",
   slidesPerView: 1,
   spaceBetween: 0,
   centeredSlides: true,
   loop: true,
-  speed: 1000,
+  speed: 500,
   autoplay: {
     delay: 10000,
   },
-  // Configuraciones responsive
-  breakpoints: {
-    // >= 576px (SM)
-    576: {
-      slidesPerView: 2,
-      spaceBetween: 10,
+  creativeEffect: {
+    prev: {
+      shadow: true,
+      translate: ["-20%", 0, -1],
     },
-    // >= 768px (MD)
-    768: {
-      slidesPerView: 3,
-      spaceBetween: 10,
+    next: {
+      translate: ["100%", 0, 0],
     },
-    // >= 992px (LG)
-    992: {
-      slidesPerView: 1,
-      spaceBetween: 0,
-    }
   },
 
   // El resto de tu configuración
