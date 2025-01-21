@@ -36,7 +36,6 @@ function cambiarBannerEnProductosSection() {
       // Añade la clase 'productos__logos-active' solo al elemento que fue clickeado
       element.classList.add('productos__logos-active');
 
-      let banner__r = document.getElementById('banner__r');
       // Cambia la imagen del cuadro clickeado a su versión a color
       if (img) {
         switch (index) {
@@ -44,22 +43,16 @@ function cambiarBannerEnProductosSection() {
             img.src = img.src.includes('img/productos/Splendid-logo-2.png')
               ? 'img/logo/logosplendid.svg'
               : 'img/productos/Splendid-logo-2.png';
-
-              banner__r.src = 'img/productos/products-banner.jpg'
             break;
           case 1:
             img.src = img.src.includes('img/productos/tropic-star-blanco.png')
               ? 'img/productos/Tropic-Star.png'
               : 'img/productos/tropic-star-blanco.png';
-
-              banner__r.src = 'img/productos/banner-tropic-star.jpg'
             break;
           case 2:
             img.src = img.src.includes('img/productos/logo-2-color-blanco.png')
               ? 'img/productos/logo-farms.png'
               : 'img/productos/logo-2-color-blanco.png';
-
-              banner__r.src = 'img/productos/banner-splendid-farms.jpg';
             break;
           default:
             break;
