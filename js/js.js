@@ -64,28 +64,4 @@ function cambiarBannerEnProductosSection() {
 
 cambiarBannerEnProductosSection()
 
-
-function prevenirArrastre(idContenedor) {
-  // Obtener el contenedor por su ID
-  const contenedor = document.getElementById(idContenedor);
-  
-  if (contenedor) {
-      // Prevenir el arrastre en el contenedor
-      contenedor.addEventListener('dragstart', (e) => {
-          e.preventDefault();
-      });
-      
-      // Seleccionar todas las imágenes dentro del contenedor
-      const imagenes = contenedor.getElementsByTagName('img');
-      
-      // Prevenir el arrastre en cada imagen
-      Array.from(imagenes).forEach(img => {
-          img.draggable = false;
-          img.addEventListener('dragstart', (e) => {
-              e.preventDefault();
-          });
-      });
-  }
-}
-
-prevenirArrastre(productosSection);
+//!┌ ∘°Sección Products°∘ ─────────────────────────────────────────────┐!//
