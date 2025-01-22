@@ -56,6 +56,7 @@ const swiper3 = new Swiper('.swiper3', {
   spaceBetween: 0,
   loop: true,
   speed: 500,
+  centeredSlides: true,
   // El resto de tu configuración
   pagination: {
     el: '.swiper3 .swiper-pagination',
@@ -65,6 +66,27 @@ const swiper3 = new Swiper('.swiper3', {
     nextEl: '.swiper3 .swiper-button-next',
     prevEl: '.swiper3 .swiper-button-prev',
   },
+  breakpoints: {
+    // when window width is >= 320px
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    }
+  }
 });
 
 //!┌ ∘°Swiper Certificado°∘ ─────────────────────────────────────────────┐!//
