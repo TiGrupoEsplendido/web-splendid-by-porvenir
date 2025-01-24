@@ -32,22 +32,83 @@ const swiper = new Swiper('.swiper1', {
 });
 
 
-//!┌ ∘°Segundo Swiper°∘ ─────────────────────────────────────────────┐!//
+//!┌ ∘°Segundo Swiper PRODUCTOS°∘ ─────────────────────────────────────────────┐!//
 
 const swiper2 = new Swiper('.swiper2', {
   slidesPerView: 1,
   spaceBetween: 0,
-  loop: true,
   speed: 500,
-  // El resto de tu configuración
   pagination: {
     el: '.swiper-pagination2',
     clickable: true,
   },
   navigation: {
-    nextEl: '.swiper-button-next2',
-    prevEl: '.swiper-button-prev2',
+    nextEl: '.swiper2 .swiper-button-next',
+    prevEl: '.swiper2 .swiper-button-prev',
   },
+  breakpoints: {
+    // when window width is >= 320px
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      slidesPerGroup: 1,
+    },
+    // when window width is >= 480px
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      slidesPerGroup: 2,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+    },
+    // when window width is >= 640px
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+      slidesPerGroup: 3,
+    }
+  }
+});
+
+const swiper2_2 = new Swiper('.swiper2_2', {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  loop: true,
+  speed: 500,
+  pagination: {
+    el: '.swiper-pagination2',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper2_2 .swiper-button-next',
+    prevEl: '.swiper2_2 .swiper-button-prev',
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      slidesPerGroup: 1,
+    },
+    // when window width is >= 480px
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      slidesPerGroup: 2,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    // when window width is >= 640px
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    }
+  }
 });
 
 //!┌ ∘°Swiper BLOG°∘ ─────────────────────────────────────────────┐!//

@@ -41,7 +41,7 @@ li {
 
 p {
   font-family: "Roboto", sans-serif;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 a {
@@ -52,6 +52,14 @@ a {
 
 .w-35 {
   width: 35px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -752,9 +760,11 @@ template {
   background-color: #E5E5E5;
 }
 .productos__container h4 {
-  font-size: 4rem;
-  margin-top: 5rem;
+  font-size: 3rem;
+  margin-top: 8rem;
   font-weight: 700;
+  color: #D21E27;
+  margin-bottom: 5rem;
 }
 .productos__container p {
   font-size: 16px;
@@ -779,11 +789,193 @@ template {
 .productos__container .productos__logo__container .productos__logos:hover {
   cursor: pointer;
   filter: brightness(1);
+  border: groove 5px white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .productos__logos-active {
   filter: brightness(1) !important;
   transition: inherit;
+}
+
+.products__background {
+  background-color: #F9B843;
+}
+
+.products__background {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0s 0.5s; /* Hace el fade y da el tiempo para que se oculte completamente */
+}
+
+.products__background.visible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease; /* Fade-in de la sección */
+}
+
+.products__wrapper .swiper2 {
+  padding: 3rem 0 3rem;
+}
+@media (min-width: 768px) {
+  .products__wrapper .swiper2 {
+    padding: 3rem 0 10rem;
+  }
+}
+@media (min-width: 1200px) {
+  .products__wrapper .swiper2 {
+    margin: 0 25%;
+  }
+}
+.products__wrapper .swiper2 .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+.products__wrapper .swiper2 .swiper-slide:active {
+  cursor: grabbing;
+}
+.products__wrapper .swiper2 .swiper-slide .slide__container {
+  margin: 0 10%;
+}
+@media (min-width: 768px) {
+  .products__wrapper .swiper2 .swiper-slide .slide__container {
+    margin: unset;
+  }
+}
+.products__wrapper .swiper2 .swiper-slide .slide__container p {
+  margin: 4rem 0 2rem 0;
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+}
+.products__wrapper .swiper2 .swiper-slide .slide__container .productos__logo {
+  width: 100px;
+  margin: 2rem 0 2rem 0;
+  font-family: "Roboto", sans-serif;
+}
+.products__wrapper .swiper2 .swiper-slide .slide__container .productos__logo--jaguar {
+  width: 80px;
+  margin: 2rem 0 1rem 0;
+}
+.products__wrapper .swiper2 .swiper-slide .slide__container .productos__logo--kong {
+  width: 80px;
+  margin: 2rem 0 1rem 0;
+}
+.products__wrapper .swiper2 .swiper-slide .slide__container .productos__boton {
+  display: block;
+  margin: auto;
+  border: none;
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 50px;
+  font-weight: 700;
+  background-color: #FF2929;
+  color: white;
+}
+.products__wrapper .swiper2 .swiper-slide .slide__container .productos__boton:hover {
+  background-color: #d92323;
+}
+.products__wrapper .swiper2 .swiper-slide .slide__container .productos__boton:active {
+  transform: scale(0.9);
+}
+
+.products__wrapper .swiper2_2 {
+  padding: 3rem 0 3rem;
+}
+@media (min-width: 768px) {
+  .products__wrapper .swiper2_2 {
+    padding: 3rem 0 10rem;
+  }
+}
+@media (min-width: 1200px) {
+  .products__wrapper .swiper2_2 {
+    margin: 0 25%;
+  }
+}
+.products__wrapper .swiper2_2 .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+.products__wrapper .swiper2_2 .swiper-slide:active {
+  cursor: grabbing;
+}
+.products__wrapper .swiper2_2 .swiper-slide .slide__container {
+  margin: 0 10%;
+}
+@media (min-width: 768px) {
+  .products__wrapper .swiper2_2 .swiper-slide .slide__container {
+    margin: unset;
+  }
+}
+.products__wrapper .swiper2_2 .swiper-slide .slide__container p {
+  margin: 4rem 0 2rem 0;
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+}
+.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__logo {
+  width: 100px;
+  margin: 2rem 0 2rem 0;
+  font-family: "Roboto", sans-serif;
+}
+.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__logo--jaguar {
+  width: 80px;
+  margin: 2rem 0 1rem 0;
+}
+.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__logo--kong {
+  width: 80px;
+  margin: 2rem 0 1rem 0;
+}
+.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__boton {
+  display: block;
+  margin: auto;
+  border: none;
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 50px;
+  font-weight: 700;
+  background-color: #FF2929;
+  color: white;
+}
+.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__boton:hover {
+  background-color: #d92323;
+}
+.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__boton:active {
+  transform: scale(0.9);
+}
+
+.swiper2 .swiper-button-next,
+.swiper2 .swiper-button-prev {
+  color: #D1111C;
+  top: 18rem;
+}
+
+.swiper2_2 .swiper-button-next,
+.swiper2_2 .swiper-button-prev {
+  color: #D1111C;
+  top: 18rem;
+}
+
+.temporada__map {
+  width: 100%;
+  margin: auto;
+  margin-top: 3rem;
+  max-width: 850px;
+  height: 10rem;
+}
+@media (min-width: 576px) {
+  .temporada__map {
+    height: 15rem;
+  }
+}
+@media (min-width: 768px) {
+  .temporada__map {
+    height: 15rem;
+  }
 }
 
 .blog__container {
@@ -797,6 +989,8 @@ template {
 }
 .blog__container h4 {
   margin-bottom: 5rem;
+  font-size: 4rem;
+  text-align: center;
 }
 .blog__container .swiper3 {
   margin: 0 20%;
@@ -843,6 +1037,8 @@ template {
 }
 .blog__container .swiper-slide a {
   color: black;
+  font-size: 1.6rem;
+  text-align: center;
 }
 .blog__container .swiper-slide a:hover {
   text-decoration: underline !important;
@@ -871,8 +1067,10 @@ template {
 .certified__container .certified__left {
   position: relative;
   background-color: #E6E6E6;
-  padding: 10rem 0;
+  padding: 10.55rem 0;
   flex: 1;
+  text-align: center;
+  width: 100%;
 }
 .certified__container .certified__left p {
   font-size: 2rem;
