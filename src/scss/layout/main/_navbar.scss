@@ -1,0 +1,39 @@
+@use '../../base/variables' as v;
+@use '../../base/mixins' as m;
+
+.navbar{
+  width: 100%;
+  display: flex;
+  padding: 1rem !important;
+  justify-content: center !important;
+  align-items: center;
+  height: var(--navbar-altura);
+  @include m.laptop {
+    justify-content: center !important;    
+  }
+  .navbar__logo{
+    display: block;
+    @include m.laptop {
+      margin-left: 0rem;
+    }
+
+  }
+  .navbar__list{
+    @include m.laptop {
+      margin-right: 10rem;
+    }
+    ul{
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+
+      a{
+        color: green;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+
+    }
+
+  }
+}

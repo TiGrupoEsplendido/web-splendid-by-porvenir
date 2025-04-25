@@ -1,0 +1,122 @@
+@use '../../base/variables' as v; 
+@use '../../base/mixins' as m; 
+@use "sass:color";
+
+.map__section{
+  width: 100%;
+  background-color: #F9F9F9;
+}
+
+.map__wrapper{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1215px;
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 1rem;
+
+  padding-top: 10rem;
+  @include m.tablet-grande {
+    padding: unset;
+    padding-top: 10rem;
+    flex-direction: row;
+  }
+
+  .map__left{
+    font-size: 1.6rem;
+    margin: 0 auto;
+
+    @include m.tablet-grande {
+      margin: initial;
+    }
+    h2{
+      font-size: 4rem;
+      font-weight: 700;
+      text-align: center;
+      @include m.tablet-grande {
+        text-align: left;
+        
+      }
+    }
+
+    .left__text{
+      margin-top: 8rem;
+      max-width: 400px;
+      text-align: justify;
+
+      .text__first{
+        background-color: #F9B843;
+        padding: 1.5rem 1.5rem 4rem 1.5rem;
+        border-radius: 32px 0;
+        margin: 0;
+
+        
+      }
+
+      .text__bottom{
+        text-align: justify;
+        
+        @include m.tablet-grande {
+          margin-left: 4rem; 
+          padding-left: 2rem;       
+          padding-top: 6rem;
+          border-left: 3px solid #000;
+          
+        }
+
+        .text__bottom--first{
+          position: relative;
+
+          @include m.tablet-grande {
+            
+            &::after{
+              content: '';
+              position: absolute;
+              left: -2.9rem;
+              top: 0;
+              background-color: #39932a;
+              width: 15px;
+              height: 15px;
+              border-radius: 50%;
+            }
+          }
+        }
+        .text__bottom--second{
+          position: relative;
+
+          @include m.tablet-grande {
+            
+            &::after{
+              content: '';
+              position: absolute;
+              left: -2.9rem;
+              top: 0;
+              background-color: #F27622;
+              width: 15px;
+              height: 15px;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .map__img{
+    margin: 0 auto;
+    @include m.tablet-grande {
+      margin: initial;
+      
+    }
+    @include m.pc {
+      transform: translateX(5rem);
+    }
+    img{
+      width: 100%;
+      max-width: 500px;
+
+      
+    }
+  }
+}

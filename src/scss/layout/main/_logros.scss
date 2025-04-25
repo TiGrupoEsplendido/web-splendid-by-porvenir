@@ -1,0 +1,96 @@
+@use '../../base/variables' as v;
+@use '../../base/mixins' as m;
+
+.logros__container{
+  margin-bottom: 5rem;
+  .logros__text__container{
+    margin: auto;
+    font-family: v.$font-family-roboto;
+    text-align: justify;
+    width: 85%;
+    font-size: 1.6rem;
+    
+    @include m.celular {
+      font-size: 1.6rem;
+      width: 70%;
+      
+    }
+    @include m.tablet-grande {
+      margin-top: 5rem;
+    }
+    @include m.pc {
+      width: 50%;
+    }
+  }
+
+  .logro__button__container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    .logros__read{
+      background-color: #D1111C;
+      padding: 0.5rem 5rem;
+      font-size: 16px;
+      border-radius: 16px;
+      color: white;
+    }
+  }
+}
+
+.logros__amarillo{
+  display: flex;
+  gap: 2rem;
+  width: 70%;
+  margin: auto;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  .amarillo__box{
+    width: 100%;
+    background-color: #F9B843;
+    aspect-ratio: 1 / 1;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    max-width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    @include m.tablet-grande {
+      max-width: 300px;
+    }
+    img{
+      width: 100px;
+    }
+
+    h4{
+      font-size: 3.5rem;
+      font-weight: 700;
+      text-align: center;
+
+      span{
+        
+        &:nth-child(1){
+          color: red;
+        }
+        &:nth-child(2){
+          display: block;
+        }
+      }
+    }
+
+    p{
+      font-size: 2rem;
+      
+      @include m.tablet {
+        font-size: 2.4rem;
+        
+      }
+    }
+  }
+
+ 
+}

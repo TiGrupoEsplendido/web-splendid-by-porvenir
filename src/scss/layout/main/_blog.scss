@@ -1,0 +1,76 @@
+@use '../../base/variables' as v; 
+@use '../../base/mixins' as m;
+
+
+
+.blog__container {
+  padding: 5rem 0;
+  @include m.laptop {
+    padding: 18rem 0;
+    height: auto;
+  }
+
+  h4{
+    margin-bottom: 5rem;
+
+    font-size: 4rem;
+    text-align: center;
+  }
+  .swiper3{
+    margin: 0 20%;
+
+    @include m.celular {
+      margin: 0 15%;
+    }
+
+    @include m.tablet {
+      margin: 0 10%;
+    }
+
+    @include m.laptop {
+      margin: 0 20%;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev{
+      color: #D1111C !important;
+    }
+  }
+  .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 10/13;
+    
+    @include m.celular {
+      aspect-ratio: 10/17;
+    }
+
+    @include m.tablet {
+      aspect-ratio: 10/12;
+    }
+    @include m.laptop {
+      aspect-ratio: 10/12.9;
+    }
+    
+    a{
+      color: black;
+      font-size: 1.6rem;
+      text-align: center;
+      &:hover{
+        text-decoration: underline !important;
+        text-decoration-thickness: 2px !important;
+      }
+    }
+
+    .naca{
+      width: 100%;
+    }
+  }
+  
+}
+
+.swiper3 .swiper-pagination{
+  top: unset !important;
+  bottom: -34px !important;
+}
