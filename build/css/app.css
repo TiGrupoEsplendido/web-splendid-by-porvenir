@@ -62,6 +62,34 @@ a {
   display: block !important;
 }
 
+.fs-7 {
+  font-size: 7rem;
+}
+
+.tu {
+  transform: unset !important;
+}
+
+.h-400px {
+  height: 400px !important;
+}
+
+@media (min-width: 768px) {
+  .h-md-400px {
+    height: 400px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h-xl-400px {
+    height: 400px !important;
+  }
+}
+
+.h-500px {
+  height: 500px !important;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -2904,12 +2932,28 @@ template {
   margin: 5rem auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+@media (min-width: 576px) {
+  .form {
+    margin: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .form {
+    margin: 5rem auto;
+  }
+}
 
 .container__title--header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3rem;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .container__title--header {
+    flex-direction: row;
+  }
 }
 .container__title--header h3 {
   font-size: 4rem;
@@ -2942,11 +2986,141 @@ template {
   font-size: 1.4rem;
   background-color: #D21E27;
   color: white;
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .form__form button {
+    display: initial;
+  }
 }
 .form__form button::placeholder {
   font-weight: 600;
   padding-left: 0rem;
   color: #AAAAAA;
+}
+
+.blog__container {
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.blog__wrapper {
+  max-width: 1215px;
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1rem;
+}
+@media (min-width: 768px) {
+  .blog__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .blog__wrapper {
+    margin: 0 auto;
+    gap: 3rem;
+  }
+}
+.blog__wrapper .blog__wrapper--container {
+  width: 100%;
+  padding: 1rem;
+  background-color: #F2F2F2;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.blog__wrapper .blog__wrapper--container a {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.blog__wrapper .blog__wrapper--container a:hover {
+  text-decoration: underline !important;
+}
+@media (min-width: 992px) {
+  .blog__wrapper .blog__wrapper--container a {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .blog__wrapper .blog__wrapper--container {
+    height: 400px;
+  }
+}
+.blog__wrapper .blog__wrapper--container .blog__wrapper--container--img img {
+  width: 100%;
+  height: 100%;
+}
+
+.recipe__wrapper {
+  max-width: 915px;
+  margin: 0 auto;
+  color: #3B5815;
+}
+.recipe__wrapper .recipe__img--container {
+  margin: 0 10%;
+}
+.recipe__wrapper .recipe__img--container h3 {
+  font-size: 3rem;
+}
+.recipe__wrapper .recipe__img--container img {
+  width: 100%;
+}
+.recipe__wrapper .recipe__imt--container {
+  border-radius: 16px;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .recipe__wrapper .recipe__img--reverse {
+    transform: translateX(-2rem);
+  }
+}
+.recipe__wrapper .recipe__title {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+@media (min-width: 768px) {
+  .recipe__wrapper .recipe__title {
+    margin: 0;
+  }
+}
+.recipe__wrapper .recipe__text--container {
+  color: black;
+  background-color: white;
+  padding: 5rem 2rem;
+  border-radius: 16px;
+  text-align: justify;
+  font-size: 1.6rem;
+}
+@media (min-width: 768px) {
+  .recipe__wrapper .recipe__text--container {
+    transform: translateX(-2rem);
+  }
+}
+.recipe__wrapper .recipe__text--container ul {
+  width: 80%;
+  text-align: start;
+}
+.recipe__wrapper .recipe__text--container ul li {
+  list-style: initial;
+  margin-bottom: 0.5rem;
+}
+.recipe__wrapper .recipe__text--container ol li {
+  list-style: decimal;
+  margin-bottom: 0.2rem;
+}
+.recipe__wrapper .recipe__text--reverse {
+  transform: inherit;
+}
+.recipe__wrapper .recipe__text--reverse p {
+  margin-right: 1rem;
+}
+
+.mango__list {
+  width: 100% !important;
 }
 
 /*# sourceMappingURL=app.css.map */

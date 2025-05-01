@@ -9,6 +9,12 @@
   margin: 5rem auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
+  @include m.celular {
+    margin:  2rem;
+  }
+  @include m.tablet-grande {
+    margin: 5rem auto;
+  }
 }
 .form__container{
 }
@@ -18,6 +24,10 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3rem;
+  flex-direction: column;
+  @include m.tablet {
+    flex-direction: row;
+  }
   h3{
     font-size: 4rem;
     font-weight: 900;
@@ -54,6 +64,13 @@
     font-size: 1.4rem;
     background-color: #D21E27;
     color: white;
+    display: block;
+    margin: 0 auto;
+
+
+    @include m.tablet-grande {
+      display: initial;
+    }
     &::placeholder{
       font-weight: 600;
       padding-left: 0rem;

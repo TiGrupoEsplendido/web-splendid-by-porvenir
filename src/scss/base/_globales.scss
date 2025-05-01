@@ -57,3 +57,28 @@ a {
 .visible{
     display: block !important;
 }
+//*┌ ∘°Tamaño fuentes°∘ ─────────────────────────────────────────────┐!//
+
+.fs-7{
+    font-size: 7rem;
+}
+.tu{
+    transform: unset !important;
+}
+.h-400px{
+    height: 400px !important;
+}
+
+.h-md-400px{
+    @include m.tablet {
+      height: 400px !important;
+    }
+}
+.h-xl-400px{
+    @include m.laptop {
+      height: 400px !important;
+    }
+}
+.h-500px{
+    height: 500px !important;
+}
