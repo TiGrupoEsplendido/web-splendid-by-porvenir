@@ -3123,4 +3123,26 @@ template {
   width: 100% !important;
 }
 
+.cucumber__title {
+  color: #3B5815;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.cucumber__list li,
+.cucumber_list--order li {
+  list-style: initial;
+  font-size: 1.8rem;
+  color: #7D6C6F;
+  margin-bottom: 2rem;
+}
+
+.cucumber_list--order li {
+  list-style: decimal;
+}
+
+.no-space li {
+  margin-bottom: 0 !important;
+}
+
 /*# sourceMappingURL=app.css.map */
