@@ -1,7 +1,5 @@
 // Inicializa Swiper con configuración básica
 const swiper = new Swiper('.swiper1', {
-  // Configuración por defecto (móvil primero)
-  effect: "creative",
   slidesPerView: 1,
   spaceBetween: 0,
   centeredSlides: true,
@@ -9,24 +7,16 @@ const swiper = new Swiper('.swiper1', {
   speed: 500,
   autoplay: {
     delay: 10000,
+    disableOnInteraction: false,
   },
-  creativeEffect: {
-    prev: {
-      shadow: true,
-      translate: ["-20%", 0, -1],
-    },
-    next: {
-      translate: ["100%", 0, 0],
-    },
-  },
-
+  
   // El resto de tu configuración
   pagination: {
     el: '.swiper1 .swiper-pagination',
     clickable: true,
   },
   navigation: {
-    nextEl: '.swiper1 .swiper-button-next',
+    nextEl: '.swiper1 .swiper-button-next', 
     prevEl: '.swiper1 .swiper-button-prev',
   },
 });
