@@ -655,9 +655,9 @@ template {
 }
 
 .card__img__jaguar {
-  background-image: url(../../img/portada/portada-jaguar-mango.jpg);
+  background-image: url(../../img/portada/Head-Jaguar.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover 100% 100%;
   background-position: center;
 }
 
@@ -669,9 +669,9 @@ template {
 }
 
 .card__img__splendid {
-  background-image: url(../../img/portada/Portada-Splendid.jpg);
+  background-image: url(../../img/portada/head-porvenir.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover 100% 100%;
   background-position: center;
 }
 
@@ -2644,25 +2644,10 @@ template {
   }
 }
 .about__section .about__container {
-  width: 100%;
   padding-top: 15rem;
-  position: relative;
-  right: 105rem;
 }
-@media (min-width: 576px) {
-  .about__section .about__container {
-    right: 90rem;
-  }
-}
-@media (min-width: 992px) {
-  .about__section .about__container {
-    right: 60rem;
-  }
-}
-@media (min-width: 1200px) {
-  .about__section .about__container {
-    right: 0;
-  }
+.about__section .about__container img {
+  width: 100%;
 }
 
 .about__section2 {
@@ -2703,36 +2688,29 @@ template {
   align-items: center;
   flex-direction: column;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .about__section2 .section2__text {
-    width: 50vw;
-    display: inline-block;
+    width: 100%;
   }
 }
 .about__section2 .section2__img {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  width: 100%;
 }
-@media (min-width: 768px) {
-  .about__section2 .section2__img {
-    width: 50vw;
-  }
+.about__section2 .section2__img .sec2__img--img1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70%;
 }
-.about__section2 .section2__img img {
-  display: block;
-  margin: auto;
-}
-@media (min-width: 992px) {
-  .about__section2 .section2__img img {
-    margin: inherit;
-  }
-}
-@media (min-width: 1400px) {
-  .about__section2 .section2__img img {
-    padding: 0 15rem;
-    width: 100%;
-  }
+.about__section2 .section2__img .sec2__img--img2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
 }
 
 .about__section3 {
@@ -2998,6 +2976,31 @@ template {
   font-weight: 600;
   padding-left: 0rem;
   color: #AAAAAA;
+}
+
+.sales__team {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem 1rem;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 1415px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+@media (min-width: 1400px) {
+  .sales__team {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+.sales__team div {
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  background-color: white;
+  height: 250px;
 }
 
 .blog__container {

@@ -11,19 +11,9 @@
     height: 90vh;
   }
   .about__container{
-    width: 100%;
     padding-top: 15rem;
-    position: relative;
-    right: 105rem;
-
-    @include m.celular {
-      right: 90rem;
-    }
-    @include m.tablet-grande {
-      right: 60rem;
-    }
-    @include m.laptop {
-      right: 0;
+    img{
+      width: 100%;
     }
   }
 }
