@@ -90,6 +90,10 @@ a {
   height: 500px !important;
 }
 
+.bg-invisible {
+  background-color: transparent !important;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -643,7 +647,7 @@ template {
 .card__img__keitt {
   background-image: url(../../img/portada/Portada-Keitt-Kong.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
 }
 
@@ -657,7 +661,7 @@ template {
 .card__img__jaguar {
   background-image: url(../../img/portada/Head-Jaguar.png);
   background-repeat: no-repeat;
-  background-size: cover 100% 100%;
+  background-size: 100%;
   background-position: center;
 }
 
