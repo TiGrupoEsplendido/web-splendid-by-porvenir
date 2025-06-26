@@ -2,17 +2,19 @@
 @use '../../base/mixins' as m;
 
 .about__section2{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   display: flex;
   flex-direction: column;
 
   @include m.tablet {
     flex-direction: row;
     padding: 5rem 0;
+    gap: 5rem;
   }
   
   @include m.laptop {
     margin: 0 10%;
+    font-size: 1.6rem;
   }
   
   h4{
@@ -31,37 +33,46 @@
   }
 
   .section2__text{
-    margin: 0 5%;
     text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    padding: 0.5rem;
+    @include m.tablet {
+      max-width: 50%;
+    }
     @include m.laptop {
       width: 100%;
     }
   }
   
   .section2__img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     width: 100%;
-
-    .sec2__img--img1{
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 70%;
+    height: 500px;
+    background-image: url('../../img/update-1/Empaque.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    @include m.laptop {
+      display: flex;
+      background-position: right;
     }
 
     .sec2__img--img2{
       position: absolute;
       bottom: 0;
-      left: 0;
-      width: 60%;
+      max-width: 250px;
+      @include m.celular {
+        left: calc(50% - 250px);
+        
+      }
+      @include m.pc {
+        max-width: 300px;
+        left: calc(50% - 150px);
+      }
     }
 
   }
