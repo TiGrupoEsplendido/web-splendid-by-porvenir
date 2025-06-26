@@ -1,0 +1,20 @@
+{
+  "name": "landingjaguar",
+  "version": "1.0.0",
+  "description": "Landing Page Reestructura",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "keywords": [
+    "SASS"
+  ],
+  "author": "KeruGod",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  },
+  "dependencies": {
+    "tiny-slider": "^2.9.4"
+  }
+}

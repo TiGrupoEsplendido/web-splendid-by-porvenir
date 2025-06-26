@@ -3,6 +3,23 @@
   --navbar-altura: 100px;
 }
 
+@font-face {
+  font-family: "Roboto Light";
+  src: url("../../../build/fonts/Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "EastmanTrial Light";
+  src: url("../../../build/fonts/EastmanTrial-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "EastmanTrial Extrabold";
+  src: url("../../../build/fonts/EastmanTrial-Extrabold.otf") format("opentype");
+  /* Puedes agregar más formatos según sea necesario (e.g., woff2, o svg) */
+}
+@font-face {
+  font-family: "Fortune Teller DEMO";
+  src: url("../../../../../build/fonts/FortuneTellerDEMO-Regular.otf") format("opentype");
+}
 body {
   overflow-x: hidden;
 }
@@ -92,6 +109,10 @@ a {
 
 .bg-invisible {
   background-color: transparent !important;
+}
+
+.fuente-titulos {
+  font-family: "Fortune Teller DEMO";
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
