@@ -1,0 +1,34 @@
+@use '../base/variables' as v; 
+@use '../base/mixins' as m;
+
+.map-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  align-items: center;
+  padding: 0.5rem;
+
+  @include m.laptop {
+      margin-top: 20vh;
+      margin-bottom: 10rem;
+  }
+  .map__text{    
+    font-size: clamp(1.6rem, 2.5vw, 3rem);
+    text-align: center;
+    color: v.$rojo;
+    span{
+      font-size: clamp(2.8rem, 5vw, 4.8rem);
+      display: block;
+    }
+  }
+
+  .map__map{
+    img{
+      display: block;
+      margin: auto;
+      max-width: 75%;
+      position: relative;
+      z-index: 2;
+    }
+  }
+}

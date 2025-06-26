@@ -14,3 +14,27 @@ $pc: 1400px;
 
 $font-family-open-sans: 'Open Sans', sans-serif;
 $font-family-roboto: 'Roboto', sans-serif;
+
+$font-family-FTeller: 'Fortune Teller DEMO';
+
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../../../build/fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EastmanTrial Light';
+    src: url('../../../build/fonts/EastmanTrial-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'EastmanTrial Extrabold';
+    src: url('../../../build/fonts/EastmanTrial-Extrabold.otf') format('opentype');
+    /* Puedes agregar más formatos según sea necesario (e.g., woff2, o svg) */
+}
+
+@font-face {
+  font-family: 'Fortune Teller DEMO';
+  src: url('../../../../../build/fonts/FortuneTellerDEMO-Regular.otf') format('opentype');
+}

@@ -1,0 +1,109 @@
+@use 'variables' as v; 
+:root {
+    --principal: #070605;
+    --secundario: #f2f2f2;
+    --blanco: #FFF;
+    --footercolor: #b3b3b3;
+    --fuentePrincipal: 'Fortune Teller DEMO';
+}
+
+/******************************Globales******************************/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    min-width: 350px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.2rem;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    background-color: v.$verde-bajo-jaguar;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #E8E8E8;
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-family: "Montserrat";
+    font-size: 2.2rem !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.click{
+    cursor: pointer;
+}
+.bg-invisible{
+    background-color: transparent !important;
+}
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../../../build/fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EastmanTrial Light';
+    src: url('../../../build/fonts/EastmanTrial-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'EastmanTrial Extrabold';
+    src: url('../../../build/fonts/EastmanTrial-Extrabold.otf') format('opentype');
+    /* Puedes agregar más formatos según sea necesario (e.g., woff2, o svg) */
+}
+
+@font-face {
+    font-family: 'Fortune Teller DEMO';
+    src: url('../../../build/fonts/FortuneTellerDEMO-Regular.otf') format('opentype');
+    /* Puedes agregar más formatos según sea necesario (e.g., woff2, o svg) */
+}

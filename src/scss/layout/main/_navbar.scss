@@ -8,6 +8,7 @@
   justify-content: center !important;
   align-items: center;
   height: var(--navbar-altura);
+
   @include m.laptop {
     justify-content: center !important;    
   }
@@ -37,3 +38,5 @@
 
   }
 }
+
+
