@@ -1,0 +1,37 @@
+@use '../base/variables' as v;
+
+@mixin celular {
+    @media(min-width: v.$cel) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media(min-width: v.$tablet) {
+        @content;
+    }
+}
+
+@mixin tablet-grande {
+    @media(min-width: v.$tablet-grande) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media(min-width: v.$laptop) {
+        @content;
+    }
+}
+
+@mixin mac {
+    @media(min-width: v.$mac) {
+        @content;
+    }
+}
+
+@mixin pc {
+    @media(min-width: v.$pc) {
+        @content;
+    }
+}

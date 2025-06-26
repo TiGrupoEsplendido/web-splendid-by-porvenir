@@ -4,7 +4,8 @@
   "description": "Página web de canes agro",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css --load-path=node_modules"
+    "sass": "sass --watch src/scss:build/css --load-path=node_modules",
+    "sass2": "sass --watch landings/web-JAGUAR-mango/src/scss:build/css2 --load-path=node_modules"
   },
   "author": "Kelvin",
   "license": "ISC",
