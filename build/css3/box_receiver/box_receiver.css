@@ -1,0 +1,123 @@
+.hitboxes {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.hitboxes .hitbox__had {
+  position: absolute;
+  height: 24%;
+  width: 100%;
+  top: 0%;
+  left: 0;
+}
+.hitboxes .hitbox__glasses {
+  position: absolute;
+  height: 12%;
+  width: 100%;
+  top: 24%;
+  left: 0;
+}
+.hitboxes .hitbox__bigote {
+  position: absolute;
+  height: 12%;
+  width: 100%;
+  top: 35%;
+  left: 0;
+}
+.hitboxes .hitbox__bow-tie {
+  position: absolute;
+  height: 15%;
+  width: 100%;
+  top: 46%;
+  left: 0;
+}
+
+.accesories {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.accesories .had-box {
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 5%;
+  left: 0;
+  width: 100%;
+}
+.accesories .had-box #had-1 {
+  transform: translate(0%, 0%);
+}
+.accesories .had-box #had-2 {
+  transform: translate(0%, -22%);
+}
+.accesories .had-box #had-3 {
+  transform: translate(0%, 10%);
+}
+.accesories .had-box #had-4 {
+  transform: translate(0%, 0%);
+}
+.accesories .glasses-box {
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 30%;
+  left: 0;
+  width: 100%;
+}
+.accesories .glasses-box #glasses-1 {
+  transform: scale(0.8, 1);
+}
+.accesories .glasses-box #glasses-2 {
+  transform: scale(0.8, 1);
+}
+.accesories .glasses-box #glasses-3 {
+  transform: scale(0.75, 0.75) translate(0%, -5%);
+}
+.accesories .glasses-box #glasses-4 {
+  transform: scale(0.8, 1);
+}
+.accesories .bigote-box {
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 46%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.accesories .bigote-box #bigote-1 {
+  transform: scale(0.7, 0.7) translate(0%, -6%);
+}
+.accesories .bigote-box #bigote-2 {
+  transform: scale(0.7, 0.7) translate(0%, -11%);
+}
+.accesories .bow-tie-box {
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 52%;
+  left: 0;
+  width: 100%;
+}
+.accesories .bow-tie-box #bow-tie-1 {
+  transform: scale(0.5, 0.5);
+}
+.accesories .bow-tie-box #bow-tie-2 {
+  transform: scale(0.5, 0.5);
+}
+
+.responsive_hit-box {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.responsive_hit-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=box_receiver.css.map */
