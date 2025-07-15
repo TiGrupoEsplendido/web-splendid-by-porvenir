@@ -1323,7 +1323,7 @@ template {
   width: 100%;
   position: relative;
   gap: 5rem;
-  background-image: url(../../img/Fondo-7.png);
+  background-image: url(../../landings/savethejaguar/img/Fondo-7.png);
   padding: 5rem 0;
 }
 @media (min-width: 768px) {
