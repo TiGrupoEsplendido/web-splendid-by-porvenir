@@ -85,11 +85,10 @@
 .swiper4 {
   width: 100%; /* Asegúrate de que el Swiper ocupe el ancho necesario */
   max-width: 300px; /* Opcional: limita el ancho si es necesario */
-}
-
-.swiper-slide img {
+   img{
   width: 100%; /* Asegúrate de que las imágenes dentro del Swiper se ajusten correctamente */
-  object-fit: contain; /* Ajusta cómo se muestran las imágenes */
+    object-fit: contain; 
+  }
 }
 
 

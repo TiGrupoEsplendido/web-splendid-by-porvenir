@@ -33,32 +33,6 @@
   }
 }
 
-.card__img__keitt{
-  background-image: url(../../img/portada/Portada-Keitt-Kong.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-.card__img__sunshine{
-  background-image: url(../../img/portada/portada-mexico-sunshine.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.card__img__jaguar{  
-  background-image: url(../../img/portada/Head-Jaguar.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.card__img__bali{  
-  background-image: url(../../img/portada/portada-bali-mango.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 
 .card__img__splendid{  
   background-image: url(../../img/portada/head-porvenir.png);
@@ -66,6 +40,37 @@
   background-size: cover;
   background-position: center;
 }
+
+
+.card__img__keitt{
+  background-image: url(../../img/portada/KeittKong.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.card__img__jaguar{  
+  background-image: url(../../img/portada/Head-Jaguar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card__img__superKent{  
+  background-image: url(../../img/portada/Head-Kent.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+// .card__img__sunshine{
+//   background-image: url(../../img/portada/portada-mexico-sunshine.png);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+// }
+
+
 
 .swiper-pagination-bullet{
   background-color: #f1f1f1 !important;

@@ -74,6 +74,10 @@
 .products__wrapper{
   .swiper2{
     
+    img{
+      width: 100%; /* Asegúrate de que las imágenes dentro del Swiper se ajusten correctamente */
+      object-fit: contain; 
+    }
     padding: 3rem 0 3rem;
     @include m.tablet {
       
@@ -145,6 +149,13 @@
 }
 .products__wrapper{
   .swiper2_2{
+    
+    .swiper-wrapper{
+      img{
+          width: 100%; /* Asegúrate de que las imágenes dentro del Swiper se ajusten correctamente */
+          object-fit: contain; 
+        }
+    }
     
     padding: 3rem 0 3rem;
     @include m.tablet {

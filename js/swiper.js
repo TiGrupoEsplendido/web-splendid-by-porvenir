@@ -135,7 +135,7 @@ const swiper3 = new Swiper('.swiper3', {
     // when window width is >= 640px
     1200: {
       slidesPerView: 3,
-      spaceBetween: 50,
+      spaceBetween: 20,
     }
   }
 });

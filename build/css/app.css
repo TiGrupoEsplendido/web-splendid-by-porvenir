@@ -1657,17 +1657,17 @@ template {
   height: 100dvh;
 }
 
-.card__img__keitt {
-  background-image: url(../../img/portada/Portada-Keitt-Kong.jpg);
+.card__img__splendid {
+  background-image: url(../../img/portada/head-porvenir.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
 }
 
-.card__img__sunshine {
-  background-image: url(../../img/portada/portada-mexico-sunshine.png);
+.card__img__keitt {
+  background-image: url(../../img/portada/KeittKong.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
 }
 
@@ -1678,15 +1678,8 @@ template {
   background-position: center;
 }
 
-.card__img__bali {
-  background-image: url(../../img/portada/portada-bali-mango.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.card__img__splendid {
-  background-image: url(../../img/portada/head-porvenir.png);
+.card__img__superKent {
+  background-image: url(../../img/portada/Head-Kent.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1862,6 +1855,10 @@ template {
 .products__wrapper .swiper2 {
   padding: 3rem 0 3rem;
 }
+.products__wrapper .swiper2 img {
+  width: 100%; /* Asegúrate de que las imágenes dentro del Swiper se ajusten correctamente */
+  object-fit: contain;
+}
 @media (min-width: 768px) {
   .products__wrapper .swiper2 {
     padding: 3rem 0 10rem;
@@ -1928,6 +1925,10 @@ template {
 
 .products__wrapper .swiper2_2 {
   padding: 3rem 0 3rem;
+}
+.products__wrapper .swiper2_2 .swiper-wrapper img {
+  width: 100%; /* Asegúrate de que las imágenes dentro del Swiper se ajusten correctamente */
+  object-fit: contain;
 }
 @media (min-width: 768px) {
   .products__wrapper .swiper2_2 {
@@ -2091,6 +2092,23 @@ template {
 }
 .blog__container .swiper-slide .naca {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1400px) {
+  .blog__container .swiper-slide .naca p {
+    width: 300px;
+  }
+}
+.blog__container .swiper-slide .naca img {
+  width: 100%;
+}
+@media (min-width: 1400px) {
+  .blog__container .swiper-slide .naca img {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .swiper3 .swiper-pagination {
@@ -2165,10 +2183,9 @@ template {
   width: 100%; /* Asegúrate de que el Swiper ocupe el ancho necesario */
   max-width: 300px; /* Opcional: limita el ancho si es necesario */
 }
-
-.swiper-slide img {
+.swiper4 img {
   width: 100%; /* Asegúrate de que las imágenes dentro del Swiper se ajusten correctamente */
-  object-fit: contain; /* Ajusta cómo se muestran las imágenes */
+  object-fit: contain;
 }
 
 .swiper4 .swiper-button-prev {
