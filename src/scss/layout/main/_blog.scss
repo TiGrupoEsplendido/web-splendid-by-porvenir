@@ -1,22 +1,21 @@
-@use '../../base/variables' as v; 
-@use '../../base/mixins' as m;
-
-
+@use "../../base/variables" as v;
+@use "../../base/mixins" as m;
 
 .blog__container {
+  background-color: white;
   padding: 5rem 0;
   @include m.laptop {
     padding: 18rem 0;
     height: auto;
   }
 
-  h4{
+  h4 {
     margin-bottom: 5rem;
 
     font-size: 4rem;
     text-align: center;
   }
-  .swiper3{
+  .swiper3 {
     margin: 0 20%;
 
     @include m.celular {
@@ -32,16 +31,16 @@
     }
 
     .swiper-button-next,
-    .swiper-button-prev{
-      color: #D1111C !important;
+    .swiper-button-prev {
+      color: #d1111c !important;
     }
   }
-  .swiper-slide{
+  .swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
     aspect-ratio: 10/13;
-    
+
     @include m.celular {
       aspect-ratio: 10/17;
     }
@@ -52,25 +51,24 @@
     @include m.laptop {
       aspect-ratio: 10/12.9;
     }
-    
-    a{
+
+    a {
       color: black;
       font-size: 1.6rem;
       text-align: center;
-      &:hover{
+      &:hover {
         text-decoration: underline !important;
         text-decoration-thickness: 2px !important;
       }
     }
 
-    .naca{
+    .naca {
       width: 100%;
     }
   }
-  
 }
 
-.swiper3 .swiper-pagination{
+.swiper3 .swiper-pagination {
   top: unset !important;
   bottom: -34px !important;
 }

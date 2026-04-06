@@ -18,7 +18,8 @@
 }
 @font-face {
   font-family: "Fortune Teller DEMO";
-  src: url("../../../../../build/fonts/FortuneTellerDEMO-Regular.otf") format("opentype");
+  src: url("../../../../../build/fonts/FortuneTellerDEMO-Regular.otf")
+    format("opentype");
 }
 body {
   overflow-x: hidden;
@@ -34,7 +35,9 @@ html {
   min-width: 250px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -47,7 +50,8 @@ h4 {
   font-family: "Roboto", sans-serif;
 }
 
-ul, ol {
+ul,
+ol {
   margin-bottom: 0 !important;
 }
 
@@ -147,7 +151,7 @@ a {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: #D1111C;
+  background-color: #d1111c;
 }
 
 .hamburger-box {
@@ -163,10 +167,12 @@ a {
   margin-top: -2px;
 }
 
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
   width: 40px;
   height: 4px;
-  background-color: #D1111C !important;
+  background-color: #d1111c !important;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
@@ -174,7 +180,8 @@ a {
   transition-timing-function: ease;
 }
 
-.hamburger-inner::before, .hamburger-inner::after {
+.hamburger-inner::before,
+.hamburger-inner::after {
   content: "";
   display: block;
 }
@@ -195,10 +202,13 @@ a {
 }
 
 .hamburger--3dx .hamburger-inner {
-  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:
+    transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+    background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.hamburger--3dx .hamburger-inner::before, .hamburger--3dx .hamburger-inner::after {
+.hamburger--3dx .hamburger-inner::before,
+.hamburger--3dx .hamburger-inner::after {
   transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -223,10 +233,13 @@ a {
 }
 
 .hamburger--3dx-r .hamburger-inner {
-  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:
+    transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+    background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.hamburger--3dx-r .hamburger-inner::before, .hamburger--3dx-r .hamburger-inner::after {
+.hamburger--3dx-r .hamburger-inner::before,
+.hamburger--3dx-r .hamburger-inner::after {
   transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -251,10 +264,13 @@ a {
 }
 
 .hamburger--3dy .hamburger-inner {
-  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:
+    transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+    background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.hamburger--3dy .hamburger-inner::before, .hamburger--3dy .hamburger-inner::after {
+.hamburger--3dy .hamburger-inner::before,
+.hamburger--3dy .hamburger-inner::after {
   transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -279,10 +295,13 @@ a {
 }
 
 .hamburger--3dy-r .hamburger-inner {
-  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:
+    transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+    background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.hamburger--3dy-r .hamburger-inner::before, .hamburger--3dy-r .hamburger-inner::after {
+.hamburger--3dy-r .hamburger-inner::before,
+.hamburger--3dy-r .hamburger-inner::after {
   transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -307,10 +326,13 @@ a {
 }
 
 .hamburger--3dxy .hamburger-inner {
-  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:
+    transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+    background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.hamburger--3dxy .hamburger-inner::before, .hamburger--3dxy .hamburger-inner::after {
+.hamburger--3dxy .hamburger-inner::before,
+.hamburger--3dxy .hamburger-inner::after {
   transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -335,10 +357,13 @@ a {
 }
 
 .hamburger--3dxy-r .hamburger-inner {
-  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:
+    transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+    background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.hamburger--3dxy-r .hamburger-inner::before, .hamburger--3dxy-r .hamburger-inner::after {
+.hamburger--3dxy-r .hamburger-inner::before,
+.hamburger--3dxy-r .hamburger-inner::after {
   transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -381,46 +406,62 @@ a {
    * Arrow Alt
    */
 .hamburger--arrowalt .hamburger-inner::before {
-  transition: top 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition:
+    top 0.1s 0.1s ease,
+    transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .hamburger--arrowalt .hamburger-inner::after {
-  transition: bottom 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition:
+    bottom 0.1s 0.1s ease,
+    transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .hamburger--arrowalt.is-active .hamburger-inner::before {
   top: 0;
   transform: translate3d(-8px, -10px, 0) rotate(-45deg) scale(0.7, 1);
-  transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition:
+    top 0.1s ease,
+    transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
 .hamburger--arrowalt.is-active .hamburger-inner::after {
   bottom: 0;
   transform: translate3d(-8px, 10px, 0) rotate(45deg) scale(0.7, 1);
-  transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition:
+    bottom 0.1s ease,
+    transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
 /*
    * Arrow Alt Right
    */
 .hamburger--arrowalt-r .hamburger-inner::before {
-  transition: top 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition:
+    top 0.1s 0.1s ease,
+    transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .hamburger--arrowalt-r .hamburger-inner::after {
-  transition: bottom 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition:
+    bottom 0.1s 0.1s ease,
+    transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .hamburger--arrowalt-r.is-active .hamburger-inner::before {
   top: 0;
   transform: translate3d(8px, -10px, 0) rotate(45deg) scale(0.7, 1);
-  transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition:
+    top 0.1s ease,
+    transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
 .hamburger--arrowalt-r.is-active .hamburger-inner::after {
   bottom: 0;
   transform: translate3d(8px, 10px, 0) rotate(-45deg) scale(0.7, 1);
-  transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition:
+    bottom 0.1s ease,
+    transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
 /*
@@ -456,7 +497,9 @@ a {
 /*
    * Boring
    */
-.hamburger--boring .hamburger-inner, .hamburger--boring .hamburger-inner::before, .hamburger--boring .hamburger-inner::after {
+.hamburger--boring .hamburger-inner,
+.hamburger--boring .hamburger-inner::before,
+.hamburger--boring .hamburger-inner::after {
   transition-property: none;
 }
 
@@ -487,11 +530,15 @@ a {
 
 .hamburger--collapse .hamburger-inner::after {
   top: -20px;
-  transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+  transition:
+    top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    opacity 0.1s linear;
 }
 
 .hamburger--collapse .hamburger-inner::before {
-  transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--collapse.is-active .hamburger-inner {
@@ -503,13 +550,17 @@ a {
 .hamburger--collapse.is-active .hamburger-inner::after {
   top: 0;
   opacity: 0;
-  transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+  transition:
+    top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    opacity 0.1s 0.22s linear;
 }
 
 .hamburger--collapse.is-active .hamburger-inner::before {
   top: 0;
   transform: rotate(-90deg);
-  transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 /*
@@ -525,11 +576,15 @@ a {
 
 .hamburger--collapse-r .hamburger-inner::after {
   top: -20px;
-  transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+  transition:
+    top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    opacity 0.1s linear;
 }
 
 .hamburger--collapse-r .hamburger-inner::before {
-  transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--collapse-r.is-active .hamburger-inner {
@@ -541,13 +596,17 @@ a {
 .hamburger--collapse-r.is-active .hamburger-inner::after {
   top: 0;
   opacity: 0;
-  transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+  transition:
+    top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    opacity 0.1s 0.22s linear;
 }
 
 .hamburger--collapse-r.is-active .hamburger-inner::before {
   top: 0;
   transform: rotate(90deg);
-  transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 /*
@@ -631,13 +690,19 @@ a {
 
 .hamburger--emphatic .hamburger-inner::before {
   left: 0;
-  transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, left 0.125s 0.175s ease-in;
+  transition:
+    transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335),
+    top 0.05s 0.125s linear,
+    left 0.125s 0.175s ease-in;
 }
 
 .hamburger--emphatic .hamburger-inner::after {
   top: 10px;
   right: 0;
-  transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, right 0.125s 0.175s ease-in;
+  transition:
+    transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335),
+    top 0.05s 0.125s linear,
+    right 0.125s 0.175s ease-in;
 }
 
 .hamburger--emphatic.is-active .hamburger-inner {
@@ -650,14 +715,20 @@ a {
   left: -80px;
   top: -80px;
   transform: translate3d(80px, 80px, 0) rotate(45deg);
-  transition: left 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition:
+    left 0.125s ease-out,
+    top 0.05s 0.125s linear,
+    transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .hamburger--emphatic.is-active .hamburger-inner::after {
   right: -80px;
   top: -80px;
   transform: translate3d(-80px, 80px, 0) rotate(-45deg);
-  transition: right 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition:
+    right 0.125s ease-out,
+    top 0.05s 0.125s linear,
+    transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 /*
@@ -673,13 +744,19 @@ a {
 
 .hamburger--emphatic-r .hamburger-inner::before {
   left: 0;
-  transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, left 0.125s 0.175s ease-in;
+  transition:
+    transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335),
+    top 0.05s 0.125s linear,
+    left 0.125s 0.175s ease-in;
 }
 
 .hamburger--emphatic-r .hamburger-inner::after {
   top: 10px;
   right: 0;
-  transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, right 0.125s 0.175s ease-in;
+  transition:
+    transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335),
+    top 0.05s 0.125s linear,
+    right 0.125s 0.175s ease-in;
 }
 
 .hamburger--emphatic-r.is-active .hamburger-inner {
@@ -692,26 +769,40 @@ a {
   left: -80px;
   top: 80px;
   transform: translate3d(80px, -80px, 0) rotate(-45deg);
-  transition: left 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition:
+    left 0.125s ease-out,
+    top 0.05s 0.125s linear,
+    transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .hamburger--emphatic-r.is-active .hamburger-inner::after {
   right: -80px;
   top: 80px;
   transform: translate3d(-80px, -80px, 0) rotate(45deg);
-  transition: right 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition:
+    right 0.125s ease-out,
+    top 0.05s 0.125s linear,
+    transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 /*
    * Minus
    */
-.hamburger--minus .hamburger-inner::before, .hamburger--minus .hamburger-inner::after {
-  transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
+.hamburger--minus .hamburger-inner::before,
+.hamburger--minus .hamburger-inner::after {
+  transition:
+    bottom 0.08s 0s ease-out,
+    top 0.08s 0s ease-out,
+    opacity 0s linear;
 }
 
-.hamburger--minus.is-active .hamburger-inner::before, .hamburger--minus.is-active .hamburger-inner::after {
+.hamburger--minus.is-active .hamburger-inner::before,
+.hamburger--minus.is-active .hamburger-inner::after {
   opacity: 0;
-  transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
+  transition:
+    bottom 0.08s ease-out,
+    top 0.08s ease-out,
+    opacity 0s 0.08s linear;
 }
 
 .hamburger--minus.is-active .hamburger-inner::before {
@@ -793,11 +884,15 @@ a {
 }
 
 .hamburger--spin .hamburger-inner::before {
-  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  transition:
+    top 0.1s 0.25s ease-in,
+    opacity 0.1s ease-in;
 }
 
 .hamburger--spin .hamburger-inner::after {
-  transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    bottom 0.1s 0.25s ease-in,
+    transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--spin.is-active .hamburger-inner {
@@ -809,13 +904,17 @@ a {
 .hamburger--spin.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  transition:
+    top 0.1s ease-out,
+    opacity 0.1s 0.12s ease-out;
 }
 
 .hamburger--spin.is-active .hamburger-inner::after {
   bottom: 0;
   transform: rotate(-90deg);
-  transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    bottom 0.1s ease-out,
+    transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 /*
@@ -827,11 +926,15 @@ a {
 }
 
 .hamburger--spin-r .hamburger-inner::before {
-  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  transition:
+    top 0.1s 0.25s ease-in,
+    opacity 0.1s ease-in;
 }
 
 .hamburger--spin-r .hamburger-inner::after {
-  transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    bottom 0.1s 0.25s ease-in,
+    transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--spin-r.is-active .hamburger-inner {
@@ -843,13 +946,17 @@ a {
 .hamburger--spin-r.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  transition:
+    top 0.1s ease-out,
+    opacity 0.1s 0.12s ease-out;
 }
 
 .hamburger--spin-r.is-active .hamburger-inner::after {
   bottom: 0;
   transform: rotate(90deg);
-  transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    bottom 0.1s ease-out,
+    transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 /*
@@ -862,12 +969,16 @@ a {
 
 .hamburger--spring .hamburger-inner::before {
   top: 10px;
-  transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--spring .hamburger-inner::after {
   top: 20px;
-  transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--spring.is-active .hamburger-inner {
@@ -877,13 +988,17 @@ a {
 
 .hamburger--spring.is-active .hamburger-inner::before {
   top: 0;
-  transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translate3d(0, 10px, 0) rotate(45deg);
 }
 
 .hamburger--spring.is-active .hamburger-inner::after {
   top: 0;
-  transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform: translate3d(0, 10px, 0) rotate(-45deg);
 }
 
@@ -900,11 +1015,15 @@ a {
 
 .hamburger--spring-r .hamburger-inner::after {
   top: -20px;
-  transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0s linear;
+  transition:
+    top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    opacity 0s linear;
 }
 
 .hamburger--spring-r .hamburger-inner::before {
-  transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--spring-r.is-active .hamburger-inner {
@@ -916,79 +1035,107 @@ a {
 .hamburger--spring-r.is-active .hamburger-inner::after {
   top: 0;
   opacity: 0;
-  transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0s 0.22s linear;
+  transition:
+    top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    opacity 0s 0.22s linear;
 }
 
 .hamburger--spring-r.is-active .hamburger-inner::before {
   top: 0;
   transform: rotate(90deg);
-  transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 /*
    * Stand
    */
 .hamburger--stand .hamburger-inner {
-  transition: transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19), background-color 0s 0.075s linear;
+  transition:
+    transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19),
+    background-color 0s 0.075s linear;
 }
 
 .hamburger--stand .hamburger-inner::before {
-  transition: top 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    top 0.075s 0.075s ease-in,
+    transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--stand .hamburger-inner::after {
-  transition: bottom 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    bottom 0.075s 0.075s ease-in,
+    transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--stand.is-active .hamburger-inner {
   transform: rotate(90deg);
   background-color: transparent !important;
-  transition: transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1), background-color 0s 0.15s linear;
+  transition:
+    transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1),
+    background-color 0s 0.15s linear;
 }
 
 .hamburger--stand.is-active .hamburger-inner::before {
   top: 0;
   transform: rotate(-45deg);
-  transition: top 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    top 0.075s 0.1s ease-out,
+    transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .hamburger--stand.is-active .hamburger-inner::after {
   bottom: 0;
   transform: rotate(45deg);
-  transition: bottom 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    bottom 0.075s 0.1s ease-out,
+    transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 /*
    * Stand Reverse
    */
 .hamburger--stand-r .hamburger-inner {
-  transition: transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19), background-color 0s 0.075s linear;
+  transition:
+    transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19),
+    background-color 0s 0.075s linear;
 }
 
 .hamburger--stand-r .hamburger-inner::before {
-  transition: top 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    top 0.075s 0.075s ease-in,
+    transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--stand-r .hamburger-inner::after {
-  transition: bottom 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    bottom 0.075s 0.075s ease-in,
+    transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--stand-r.is-active .hamburger-inner {
   transform: rotate(-90deg);
   background-color: transparent !important;
-  transition: transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1), background-color 0s 0.15s linear;
+  transition:
+    transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1),
+    background-color 0s 0.15s linear;
 }
 
 .hamburger--stand-r.is-active .hamburger-inner::before {
   top: 0;
   transform: rotate(-45deg);
-  transition: top 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    top 0.075s 0.1s ease-out,
+    transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .hamburger--stand-r.is-active .hamburger-inner::after {
   bottom: 0;
   transform: rotate(45deg);
-  transition: bottom 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    bottom 0.075s 0.1s ease-out,
+    transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 /*
@@ -1000,11 +1147,15 @@ a {
 }
 
 .hamburger--squeeze .hamburger-inner::before {
-  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+  transition:
+    top 0.075s 0.12s ease,
+    opacity 0.075s ease;
 }
 
 .hamburger--squeeze .hamburger-inner::after {
-  transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition:
+    bottom 0.075s 0.12s ease,
+    transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .hamburger--squeeze.is-active .hamburger-inner {
@@ -1016,13 +1167,17 @@ a {
 .hamburger--squeeze.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+  transition:
+    top 0.075s ease,
+    opacity 0.075s 0.12s ease;
 }
 
 .hamburger--squeeze.is-active .hamburger-inner::after {
   bottom: 0;
   transform: rotate(-90deg);
-  transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:
+    bottom 0.075s ease,
+    transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 /*
@@ -1033,7 +1188,8 @@ a {
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.hamburger--vortex .hamburger-inner::before, .hamburger--vortex .hamburger-inner::after {
+.hamburger--vortex .hamburger-inner::before,
+.hamburger--vortex .hamburger-inner::after {
   transition-duration: 0s;
   transition-delay: 0.1s;
   transition-timing-function: linear;
@@ -1052,7 +1208,8 @@ a {
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.hamburger--vortex.is-active .hamburger-inner::before, .hamburger--vortex.is-active .hamburger-inner::after {
+.hamburger--vortex.is-active .hamburger-inner::before,
+.hamburger--vortex.is-active .hamburger-inner::after {
   transition-delay: 0s;
 }
 
@@ -1074,7 +1231,8 @@ a {
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.hamburger--vortex-r .hamburger-inner::before, .hamburger--vortex-r .hamburger-inner::after {
+.hamburger--vortex-r .hamburger-inner::before,
+.hamburger--vortex-r .hamburger-inner::after {
   transition-duration: 0s;
   transition-delay: 0.1s;
   transition-timing-function: linear;
@@ -1093,7 +1251,8 @@ a {
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.hamburger--vortex-r.is-active .hamburger-inner::before, .hamburger--vortex-r.is-active .hamburger-inner::after {
+.hamburger--vortex-r.is-active .hamburger-inner::before,
+.hamburger--vortex-r.is-active .hamburger-inner::after {
   transition-delay: 0s;
 }
 
@@ -1118,6 +1277,7 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   /* 2 */
 }
 
@@ -1296,9 +1456,9 @@ select {
    * Correct the inability to style clickable types in iOS and Safari.
    */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -1306,9 +1466,9 @@ button,
    * Remove the inner border and padding in Firefox.
    */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -1317,9 +1477,9 @@ button::-moz-focus-inner,
    * Restore the focus styles unset by the previous rule.
    */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -1369,8 +1529,8 @@ textarea {
    * 1. Add the correct box sizing in IE 10.
    * 2. Remove the padding in IE 10.
    */
-[type=checkbox],
-[type=radio] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -1380,8 +1540,8 @@ textarea {
 /**
    * Correct the cursor style of increment and decrement buttons in Chrome.
    */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -1389,7 +1549,7 @@ textarea {
    * 1. Correct the odd appearance in Chrome and Safari.
    * 2. Correct the outline style in Safari.
    */
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -1399,7 +1559,7 @@ textarea {
 /**
    * Remove the inner padding in Chrome and Safari on macOS.
    */
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -1485,7 +1645,7 @@ template {
 
 .email-tel {
   width: 100%;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
@@ -1506,7 +1666,7 @@ template {
   color: black;
 }
 .email-tel .tel {
-  background-color: #D1111C;
+  background-color: #d1111c;
   padding: 1rem 2rem;
   border-radius: 50px;
 }
@@ -1566,6 +1726,10 @@ template {
   font-weight: 700;
   font-size: 1.5rem;
 }
+.header__container .header__lista li a {
+  color: black;
+  text-decoration: none;
+}
 .header__container .hamburger {
   z-index: 2;
 }
@@ -1617,7 +1781,7 @@ template {
 .off-canva .off-canva__redes i {
   font-size: 2rem;
   border-radius: 50%;
-  background-color: #D1111C;
+  background-color: #d1111c;
   padding: 1.5rem;
 }
 
@@ -1704,7 +1868,7 @@ template {
 
 .swiper-pagination-bullet-active {
   opacity: 1 !important; /* La bullet activa tendrá opacidad completa */
-  background-color: #D1111C !important;
+  background-color: #d1111c !important;
 }
 
 .logros__container {
@@ -1738,8 +1902,14 @@ template {
   justify-content: center;
   margin-top: 5rem;
 }
+.logros__container .logros__description {
+  font-size: 1.6rem;
+  width: 85%;
+  margin: auto;
+  margin-top: 5rem;
+}
 .logros__container .logro__button__container .logros__read {
-  background-color: #D1111C;
+  background-color: #d1111c;
   padding: 0.5rem 5rem;
   font-size: 16px;
   border-radius: 16px;
@@ -1757,7 +1927,7 @@ template {
 }
 .logros__amarillo .amarillo__box {
   width: 100%;
-  background-color: #F9B843;
+  background-color: #f9b843;
   aspect-ratio: 1/1;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -1802,13 +1972,13 @@ template {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 .productos__container h4 {
   font-size: 3rem;
   margin-top: 8rem;
   font-weight: 700;
-  color: #D21E27;
+  color: #d21e27;
   margin-bottom: 5rem;
 }
 .productos__container p {
@@ -1820,11 +1990,13 @@ template {
   gap: 1rem;
   justify-content: center;
   margin-top: 5rem;
+  -webkit-user-select: none;
+  user-select: none;
 }
 .productos__container .productos__logo__container .productos__logos {
   width: 100%;
   max-width: 250px;
-  background-color: #D1111C;
+  background-color: #d1111c;
   aspect-ratio: 1/1;
   filter: brightness(0.5);
   transition: filter 0.3s ease-in-out;
@@ -1835,7 +2007,9 @@ template {
   cursor: pointer;
   filter: brightness(1);
   border: groove 5px white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .productos__logos-active {
@@ -1844,13 +2018,15 @@ template {
 }
 
 .products__background {
-  background-color: #F9B843;
+  background-color: #f9b843;
 }
 
 .products__background {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.5s ease, visibility 0s 0.5s; /* Hace el fade y da el tiempo para que se oculte completamente */
+  transition:
+    opacity 0.5s ease,
+    visibility 0s 0.5s; /* Hace el fade y da el tiempo para que se oculte completamente */
 }
 
 .products__background.visible {
@@ -1900,11 +2076,19 @@ template {
   margin: 2rem 0 2rem 0;
   font-family: "Roboto", sans-serif;
 }
-.products__wrapper .swiper2 .swiper-slide .slide__container .productos__logo--jaguar {
+.products__wrapper
+  .swiper2
+  .swiper-slide
+  .slide__container
+  .productos__logo--jaguar {
   width: 80px;
   margin: 2rem 0 1rem 0;
 }
-.products__wrapper .swiper2 .swiper-slide .slide__container .productos__logo--kong {
+.products__wrapper
+  .swiper2
+  .swiper-slide
+  .slide__container
+  .productos__logo--kong {
   width: 80px;
   margin: 2rem 0 1rem 0;
 }
@@ -1916,13 +2100,21 @@ template {
   font-size: 1.6rem;
   border-radius: 50px;
   font-weight: 700;
-  background-color: #FF2929;
+  background-color: #ff2929;
   color: white;
 }
-.products__wrapper .swiper2 .swiper-slide .slide__container .productos__boton:hover {
+.products__wrapper
+  .swiper2
+  .swiper-slide
+  .slide__container
+  .productos__boton:hover {
   background-color: #d92323;
 }
-.products__wrapper .swiper2 .swiper-slide .slide__container .productos__boton:active {
+.products__wrapper
+  .swiper2
+  .swiper-slide
+  .slide__container
+  .productos__boton:active {
   transform: scale(0.9);
 }
 
@@ -1967,15 +2159,27 @@ template {
   margin: 2rem 0 2rem 0;
   font-family: "Roboto", sans-serif;
 }
-.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__logo--jaguar {
+.products__wrapper
+  .swiper2_2
+  .swiper-slide
+  .slide__container
+  .productos__logo--jaguar {
   width: 80px;
   margin: 2rem 0 1rem 0;
 }
-.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__logo--kong {
+.products__wrapper
+  .swiper2_2
+  .swiper-slide
+  .slide__container
+  .productos__logo--kong {
   width: 80px;
   margin: 2rem 0 1rem 0;
 }
-.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__boton {
+.products__wrapper
+  .swiper2_2
+  .swiper-slide
+  .slide__container
+  .productos__boton {
   display: block;
   margin: auto;
   border: none;
@@ -1983,25 +2187,33 @@ template {
   font-size: 1.6rem;
   border-radius: 50px;
   font-weight: 700;
-  background-color: #FF2929;
+  background-color: #ff2929;
   color: white;
 }
-.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__boton:hover {
+.products__wrapper
+  .swiper2_2
+  .swiper-slide
+  .slide__container
+  .productos__boton:hover {
   background-color: #d92323;
 }
-.products__wrapper .swiper2_2 .swiper-slide .slide__container .productos__boton:active {
+.products__wrapper
+  .swiper2_2
+  .swiper-slide
+  .slide__container
+  .productos__boton:active {
   transform: scale(0.9);
 }
 
 .swiper2 .swiper-button-next,
 .swiper2 .swiper-button-prev {
-  color: #D1111C;
+  color: #d1111c;
   top: 18rem;
 }
 
 .swiper2_2 .swiper-button-next,
 .swiper2_2 .swiper-button-prev {
-  color: #D1111C;
+  color: #d1111c;
   top: 18rem;
 }
 
@@ -2024,6 +2236,7 @@ template {
 }
 
 .blog__container {
+  background-color: white;
   padding: 5rem 0;
 }
 @media (min-width: 1200px) {
@@ -2057,7 +2270,7 @@ template {
 }
 .blog__container .swiper3 .swiper-button-next,
 .blog__container .swiper3 .swiper-button-prev {
-  color: #D1111C !important;
+  color: #d1111c !important;
 }
 .blog__container .swiper-slide {
   display: flex;
@@ -2111,7 +2324,7 @@ template {
 }
 .certified__container .certified__left {
   position: relative;
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
   padding: 10.55rem 0;
   flex: 1;
   text-align: center;
@@ -2129,7 +2342,7 @@ template {
   width: 80px;
 }
 .certified__container .certified__right {
-  background-color: #D21E27;
+  background-color: #d21e27;
   flex: 1;
   display: flex;
   align-items: center;
@@ -2145,7 +2358,7 @@ template {
   font-weight: 800;
 }
 .certified__container .certified__right h4 span {
-  color: #F9B843;
+  color: #f9b843;
   font-size: 2.3rem;
   display: block;
   font-weight: 500;
@@ -2172,19 +2385,19 @@ template {
 }
 
 .swiper4 .swiper-button-prev {
-  color: #D21E27 !important;
+  color: #d21e27 !important;
   left: 0;
 }
 .swiper4 .swiper-button-next {
   right: 0;
-  color: #D21E27 !important;
+  color: #d21e27 !important;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #B3B3B3;
+  background-color: #b3b3b3;
   color: white;
   padding-top: 5rem;
 }
@@ -2288,7 +2501,7 @@ template {
   font-size: 1.7rem;
 }
 .contacto .contacto-btn {
-  background-color: #FFC84D;
+  background-color: #ffc84d;
   height: 100%;
   padding: 0.2rem;
   border-left: solid 3px white;
@@ -2301,10 +2514,10 @@ template {
 }
 
 .g-recaptcha {
-  transform: scale(1);
   -webkit-transform: scale(1);
-  transform-origin: 0 0;
+  transform: scale(1);
   -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 
 .sr-only {
@@ -2346,7 +2559,10 @@ template {
   width: 100% !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer button, #mlb2-6041587.ml-form-embedContainer h4, #mlb2-6041587.ml-form-embedContainer p, #mlb2-6041587.ml-form-embedContainer span {
+#mlb2-6041587.ml-form-embedContainer button,
+#mlb2-6041587.ml-form-embedContainer h4,
+#mlb2-6041587.ml-form-embedContainer p,
+#mlb2-6041587.ml-form-embedContainer span {
   text-transform: none !important;
   letter-spacing: normal !important;
 }
@@ -2364,7 +2580,8 @@ template {
   position: relative;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper.embedDefault, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper.embedPopup {
+#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper.embedDefault,
+#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper.embedPopup {
   width: 400px;
 }
 
@@ -2391,7 +2608,10 @@ template {
   text-align: right;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedHeader img {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedHeader
+  img {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   height: auto;
@@ -2400,20 +2620,41 @@ template {
   width: undefinedpx;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody {
   padding: 20px 20px 0 20px;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody.ml-form-embedBodyHorizontal {
   padding-bottom: 0;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent {
   text-align: left;
   margin: 0 0 20px 0;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  h4,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  h4 {
   color: #000;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -2423,7 +2664,16 @@ template {
   word-break: break-word;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  p,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  p {
   color: white;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 2rem;
@@ -2433,30 +2683,91 @@ template {
   text-align: center;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ul, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ul {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  ol,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  ul,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  ol,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  ul {
   color: #000;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  ol
+  ol,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  ol
+  ol {
   list-style-type: lower-alpha;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol ol, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol ol {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  ol
+  ol
+  ol,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  ol
+  ol
+  ol {
   list-style-type: lower-roman;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p a, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p a {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  p
+  a,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  p
+  a {
   color: #000;
   text-decoration: underline;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-block-form
+  .ml-field-group {
   text-align: left !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group label {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-block-form
+  .ml-field-group
+  label {
   margin-bottom: 5px;
   color: #333;
   font-size: 14px;
@@ -2468,25 +2779,50 @@ template {
   line-height: 20px;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p:last-child, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p:last-child {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  p:last-child,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  p:last-child {
   margin: 0;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  form {
   margin: 0;
   width: 100%;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-formContent {
   margin: 0 0 20px 0;
   width: 100%;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow {
   float: left;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-formContent.horozintalForm {
   margin: 0;
   padding: 0 0 20px 0;
   width: 100%;
@@ -2494,20 +2830,33 @@ template {
   float: left;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow {
   margin: 0 0 10px 0;
   width: 100%;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow.ml-last-item {
   margin: 0;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-formfieldHorizintal {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow.ml-formfieldHorizintal {
   margin: 0;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input {
   background-color: #fff !important;
   color: #333 !important;
   border-color: #ccc;
@@ -2528,23 +2877,68 @@ template {
   max-width: 100% !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-webkit-input-placeholder {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input::-webkit-input-placeholder,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input::-webkit-input-placeholder {
   color: #333;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-moz-placeholder, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-moz-placeholder {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input::-moz-placeholder,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input::-moz-placeholder {
   color: #333;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-ms-input-placeholder, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-ms-input-placeholder {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input:-ms-input-placeholder,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input:-ms-input-placeholder {
   color: #333;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-moz-placeholder, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-moz-placeholder {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input:-moz-placeholder,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input:-moz-placeholder {
   color: #333;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow textarea, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow textarea {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  textarea,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  textarea {
   background-color: #fff !important;
   color: #333 !important;
   border-color: #ccc;
@@ -2563,12 +2957,56 @@ template {
   max-width: 100% !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::before {
   border-color: #ccc !important;
   background-color: #fff !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input.custom-control-input[type=checkbox] {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input.custom-control-input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
   position: absolute;
@@ -2579,39 +3017,235 @@ template {
   overflow: visible;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::before {
   border-radius: 4px !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked ~ .label-description::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked ~ .label-description::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked ~ .label-description::after {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  input[type="checkbox"]:checked
+  ~ .label-description::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  input[type="checkbox"]:checked
+  ~ .label-description::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  input[type="checkbox"]:checked
+  ~ .label-description::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-input:checked
+  ~ .custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked ~ .label-description::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked ~ .label-description::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked ~ .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input:checked ~ .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked ~ .label-description::before {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  input[type="checkbox"]:checked
+  ~ .label-description::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  input[type="checkbox"]:checked
+  ~ .label-description::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-input:checked
+  ~ .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-input:checked
+  ~ .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  input[type="checkbox"]:checked
+  ~ .label-description::before {
   border-color: #000 !important;
   background-color: #000 !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-label::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-label::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-label::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-label::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-label::before {
   top: 2px;
   box-sizing: border-box;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::before {
   top: 0 !important;
   box-sizing: border-box !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::before {
   top: 0 !important;
   box-sizing: border-box !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::after {
   top: 0 !important;
   box-sizing: border-box !important;
   position: absolute;
@@ -2622,12 +3256,20 @@ template {
   content: "";
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::before {
   top: 0 !important;
   box-sizing: border-box !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::before {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .custom-control-label::before {
   position: absolute;
   top: 4px;
   left: -1.5rem;
@@ -2641,7 +3283,10 @@ template {
   border-radius: 50%;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::after {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .custom-control-label::after {
   position: absolute;
   top: 2px !important;
   left: -1.5rem;
@@ -2651,7 +3296,23 @@ template {
   content: "";
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::before,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::before {
   position: absolute;
   top: 4px;
   left: -1.5rem;
@@ -2665,7 +3326,12 @@ template {
   border-radius: 50%;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::after {
   position: absolute;
   top: 0 !important;
   left: -1.5rem;
@@ -2675,7 +3341,11 @@ template {
   content: "";
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::after {
   position: absolute;
   top: 0 !important;
   left: -1.5rem;
@@ -2685,22 +3355,79 @@ template {
   content: "";
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-radio .custom-control-label::after {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .custom-radio
+  .custom-control-label::after {
   background: no-repeat 50%/50% 50%;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-checkbox .custom-control-label::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .custom-checkbox
+  .custom-control-label::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::after,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::after {
   background: no-repeat 50%/50% 50%;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-control, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-control {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-control,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-control {
   position: relative;
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-input,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-input,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-input,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-input {
   position: absolute;
   z-index: -1;
   opacity: 0;
@@ -2708,7 +3435,30 @@ template {
   padding: 0;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-label,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-label,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-label,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-label {
   color: #000;
   font-size: 12px !important;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -2720,7 +3470,16 @@ template {
   font-weight: 700;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-select, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-select {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-select,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-select {
   background-color: #fff !important;
   color: #333 !important;
   border-color: #ccc;
@@ -2739,29 +3498,39 @@ template {
   height: auto;
   display: inline-block;
   vertical-align: middle;
-  background: url(https://assets.mlcdn.com/ml/images/default/dropdown.svg) no-repeat right 0.75rem center/8px 10px;
+  background: url(https://assets.mlcdn.com/ml/images/default/dropdown.svg)
+    no-repeat right 0.75rem center/8px 10px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow {
   height: auto;
   width: 100%;
   float: left;
 }
 
-.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
+.ml-form-formContent.horozintalForm
+  .ml-form-horizontalRow
+  .ml-input-horizontal {
   width: 70%;
   float: left;
 }
 
-.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal {
+.ml-form-formContent.horozintalForm
+  .ml-form-horizontalRow
+  .ml-button-horizontal {
   width: 30%;
   float: left;
 }
 
-.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal.labelsOn {
+.ml-form-formContent.horozintalForm
+  .ml-form-horizontalRow
+  .ml-button-horizontal.labelsOn {
   padding-top: 25px;
 }
 
@@ -2771,7 +3540,11 @@ template {
   padding-right: 10px;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input {
   background-color: #fff;
   color: #333;
   border-color: #ccc;
@@ -2789,7 +3562,11 @@ template {
   overflow-y: initial;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  button {
   background-color: #ffc144 !important;
   border-color: #ffc144;
   border-style: solid;
@@ -2808,12 +3585,20 @@ template {
   height: auto;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  button:hover {
   background-color: #ffc144 !important;
   border-color: #ffc144 !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox] {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
   position: absolute;
@@ -2824,7 +3609,11 @@ template {
   overflow: visible;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description {
   color: #000;
   display: block;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -2835,7 +3624,11 @@ template {
   vertical-align: top;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  label {
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -2845,12 +3638,22 @@ template {
   padding-left: 24px;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label a {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  label
+  a {
   color: #000;
   text-decoration: underline;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  label
+  p {
   color: #000 !important;
   font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
   font-size: 12px !important;
@@ -2860,17 +3663,29 @@ template {
   margin: 0 5px 0 0 !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p:last-child {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  label
+  p:last-child {
   margin: 0;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit {
   margin: 0 0 20px 0;
   float: left;
   width: 100%;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit
+  button {
   background-color: #ffc144 !important;
   border: none !important;
   border-radius: 4px !important;
@@ -2887,18 +3702,27 @@ template {
   box-sizing: border-box !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit
+  button.loading {
   display: none;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit
+  button:hover {
   background-color: #ffc144 !important;
 }
 
 .ml-subscribe-close {
   width: 30px;
   height: 30px;
-  background: url(https://assets.mlcdn.com/ml/images/default/modal_close.png) no-repeat;
+  background: url(https://assets.mlcdn.com/ml/images/default/modal_close.png)
+    no-repeat;
   background-size: 30px;
   cursor: pointer;
   margin-top: -10px;
@@ -2908,7 +3732,9 @@ template {
   right: 0;
 }
 
-.ml-error input, .ml-error select, .ml-error textarea {
+.ml-error input,
+.ml-error select,
+.ml-error textarea {
   border-color: red !important;
 }
 
@@ -2918,16 +3744,31 @@ template {
   padding: 10px;
 }
 
-.ml-error .label-description, .ml-error .label-description p, .ml-error .label-description p a, .ml-error label:first-child {
+.ml-error .label-description,
+.ml-error .label-description p,
+.ml-error .label-description p a,
+.ml-error label:first-child {
   color: red !important;
 }
 
-#mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p, #mlb2-6041587.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p:first-letter {
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow.ml-error
+  .label-description
+  p,
+#mlb2-6041587.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow.ml-error
+  .label-description
+  p:first-letter {
   color: red !important;
 }
 
 @media only screen and (max-width: 400px) {
-  .ml-form-embedWrapper.embedDefault, .ml-form-embedWrapper.embedPopup {
+  .ml-form-embedWrapper.embedDefault,
+  .ml-form-embedWrapper.embedPopup {
     width: 100% !important;
   }
   .ml-form-formContent.horozintalForm {
@@ -2938,10 +3779,15 @@ template {
     width: 100% !important;
     float: left !important;
   }
-  .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
+  .ml-form-formContent.horozintalForm
+    .ml-form-horizontalRow
+    .ml-input-horizontal {
     width: 100% !important;
   }
-  .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div {
+  .ml-form-formContent.horozintalForm
+    .ml-form-horizontalRow
+    .ml-input-horizontal
+    > div {
     padding-right: 0 !important;
     padding-bottom: 10px;
   }
@@ -2974,7 +3820,10 @@ template {
 }
 
 @media only screen and (max-width: 400px) {
-  #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
+  #mlb2-6054651.ml-form-embedContainer
+    .ml-form-embedWrapper
+    .ml-form-embedBody
+    .ml-form-formContent.horozintalForm {
     padding: 0 0 10px 0 !important;
   }
   .ml-hide-horizontal {
@@ -2988,7 +3837,10 @@ template {
     margin-bottom: 20px;
     width: 100%;
   }
-  .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div {
+  .ml-form-formContent.horozintalForm
+    .ml-form-horizontalRow
+    .ml-input-horizontal
+    > div {
     padding-bottom: 0 !important;
   }
 }
@@ -2999,10 +3851,10 @@ template {
 }
 
 .g-recaptcha {
-  transform: scale(1);
   -webkit-transform: scale(1);
-  transform-origin: 0 0;
+  transform: scale(1);
   -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 
 .sr-only {
@@ -3044,7 +3896,10 @@ template {
   width: 100% !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer button, #mlb2-6054651.ml-form-embedContainer h4, #mlb2-6054651.ml-form-embedContainer p, #mlb2-6054651.ml-form-embedContainer span {
+#mlb2-6054651.ml-form-embedContainer button,
+#mlb2-6054651.ml-form-embedContainer h4,
+#mlb2-6054651.ml-form-embedContainer p,
+#mlb2-6054651.ml-form-embedContainer span {
   text-transform: none !important;
   letter-spacing: normal !important;
 }
@@ -3062,7 +3917,8 @@ template {
   position: relative;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper.embedDefault, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper.embedPopup {
+#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper.embedDefault,
+#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper.embedPopup {
   width: 400px;
 }
 
@@ -3089,7 +3945,10 @@ template {
   text-align: right;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedHeader img {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedHeader
+  img {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   height: auto;
@@ -3098,20 +3957,41 @@ template {
   width: undefinedpx;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody {
   padding: 20px 20px 0 20px;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody.ml-form-embedBodyHorizontal {
   padding-bottom: 0;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent {
   text-align: left;
   margin: 0 0 20px 0;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  h4,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  h4 {
   color: #000;
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -3121,7 +4001,16 @@ template {
   word-break: break-word;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  p,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  p {
   color: white;
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -3131,30 +4020,91 @@ template {
   text-align: left;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ul, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ul {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  ol,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  ul,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  ol,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  ul {
   color: #000;
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  ol
+  ol,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  ol
+  ol {
   list-style-type: lower-alpha;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol ol, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol ol {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  ol
+  ol
+  ol,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  ol
+  ol
+  ol {
   list-style-type: lower-roman;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p a, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p a {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  p
+  a,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  p
+  a {
   color: #000;
   text-decoration: underline;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-block-form
+  .ml-field-group {
   text-align: left !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group label {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-block-form
+  .ml-field-group
+  label {
   margin-bottom: 5px;
   color: #333;
   font-size: 14px;
@@ -3166,25 +4116,50 @@ template {
   line-height: 20px;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p:last-child, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p:last-child {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedContent
+  p:last-child,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  p:last-child {
   margin: 0;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  form {
   margin: 0;
   width: 100%;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-formContent {
   margin: 0 0 20px 0;
   width: 100%;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow {
   float: left;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-formContent.horozintalForm {
   margin: 0;
   padding: 0 0 20px 0;
   width: 100%;
@@ -3192,20 +4167,33 @@ template {
   float: left;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow {
   margin: 0 0 10px 0;
   width: 100%;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow.ml-last-item {
   margin: 0;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-formfieldHorizintal {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow.ml-formfieldHorizintal {
   margin: 0;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input {
   background-color: #fff !important;
   color: #333 !important;
   border-color: #ccc;
@@ -3226,23 +4214,68 @@ template {
   max-width: 100% !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-webkit-input-placeholder {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input::-webkit-input-placeholder,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input::-webkit-input-placeholder {
   color: #333;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-moz-placeholder, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-moz-placeholder {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input::-moz-placeholder,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input::-moz-placeholder {
   color: #333;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-ms-input-placeholder, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-ms-input-placeholder {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input:-ms-input-placeholder,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input:-ms-input-placeholder {
   color: #333;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-moz-placeholder, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-moz-placeholder {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input:-moz-placeholder,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input:-moz-placeholder {
   color: #333;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow textarea, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow textarea {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  textarea,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  textarea {
   background-color: #fff !important;
   color: #333 !important;
   border-color: #ccc;
@@ -3261,12 +4294,56 @@ template {
   max-width: 100% !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::before {
   border-color: #ccc !important;
   background-color: #fff !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input.custom-control-input[type=checkbox] {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  input.custom-control-input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
   position: absolute;
@@ -3277,39 +4354,235 @@ template {
   overflow: visible;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::before {
   border-radius: 4px !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked ~ .label-description::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked ~ .label-description::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked ~ .label-description::after {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  input[type="checkbox"]:checked
+  ~ .label-description::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  input[type="checkbox"]:checked
+  ~ .label-description::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  input[type="checkbox"]:checked
+  ~ .label-description::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-input:checked
+  ~ .custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked ~ .label-description::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked ~ .label-description::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked ~ .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input:checked ~ .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked ~ .label-description::before {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  input[type="checkbox"]:checked
+  ~ .label-description::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  input[type="checkbox"]:checked
+  ~ .label-description::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-input:checked
+  ~ .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-input:checked
+  ~ .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  input[type="checkbox"]:checked
+  ~ .label-description::before {
   border-color: #000 !important;
   background-color: #000 !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-label::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-label::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-label::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-label::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-label::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-label::before {
   top: 2px;
   box-sizing: border-box;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::before {
   top: 0 !important;
   box-sizing: border-box !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::before {
   top: 0 !important;
   box-sizing: border-box !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::after {
   top: 0 !important;
   box-sizing: border-box !important;
   position: absolute;
@@ -3320,12 +4593,20 @@ template {
   content: "";
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::before {
   top: 0 !important;
   box-sizing: border-box !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::before {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .custom-control-label::before {
   position: absolute;
   top: 4px;
   left: -1.5rem;
@@ -3339,7 +4620,10 @@ template {
   border-radius: 50%;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::after {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .custom-control-label::after {
   position: absolute;
   top: 2px !important;
   left: -1.5rem;
@@ -3349,7 +4633,23 @@ template {
   content: "";
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::before,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::before {
   position: absolute;
   top: 4px;
   left: -1.5rem;
@@ -3363,7 +4663,12 @@ template {
   border-radius: 50%;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::after {
   position: absolute;
   top: 0 !important;
   left: -1.5rem;
@@ -3373,7 +4678,11 @@ template {
   content: "";
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::after {
   position: absolute;
   top: 0 !important;
   left: -1.5rem;
@@ -3383,22 +4692,79 @@ template {
   content: "";
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-radio .custom-control-label::after {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .custom-radio
+  .custom-control-label::after {
   background: no-repeat 50%/50% 50%;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-checkbox .custom-control-label::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .custom-checkbox
+  .custom-control-label::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description::after,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-interestGroupsRow
+  .ml-form-interestGroupsRowCheckbox
+  .label-description::after {
   background: no-repeat 50%/50% 50%;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-control, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-control {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-control,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-control {
   position: relative;
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-input,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-input,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-input,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-input {
   position: absolute;
   z-index: -1;
   opacity: 0;
@@ -3406,7 +4772,30 @@ template {
   padding: 0;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-checkbox
+  .custom-control-label,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-radio
+  .custom-control-label,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-checkbox
+  .custom-control-label,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-radio
+  .custom-control-label {
   color: #000;
   font-size: 12px !important;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -3418,7 +4807,16 @@ template {
   font-weight: 700;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-select, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-select {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-fieldRow
+  .custom-select,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  .custom-select {
   background-color: #fff !important;
   color: #333 !important;
   border-color: #ccc;
@@ -3437,29 +4835,39 @@ template {
   height: auto;
   display: inline-block;
   vertical-align: middle;
-  background: url(https://assets.mlcdn.com/ml/images/default/dropdown.svg) no-repeat right 0.75rem center/8px 10px;
+  background: url(https://assets.mlcdn.com/ml/images/default/dropdown.svg)
+    no-repeat right 0.75rem center/8px 10px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow {
   height: auto;
   width: 100%;
   float: left;
 }
 
-.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
+.ml-form-formContent.horozintalForm
+  .ml-form-horizontalRow
+  .ml-input-horizontal {
   width: 70%;
   float: left;
 }
 
-.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal {
+.ml-form-formContent.horozintalForm
+  .ml-form-horizontalRow
+  .ml-button-horizontal {
   width: 30%;
   float: left;
 }
 
-.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal.labelsOn {
+.ml-form-formContent.horozintalForm
+  .ml-form-horizontalRow
+  .ml-button-horizontal.labelsOn {
   padding-top: 25px;
 }
 
@@ -3469,7 +4877,11 @@ template {
   padding-right: 10px;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  input {
   background-color: #fff;
   color: #333;
   border-color: #ccc;
@@ -3487,7 +4899,11 @@ template {
   overflow-y: initial;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  button {
   background-color: #ffc144 !important;
   border-color: #ffc144;
   border-style: solid;
@@ -3506,12 +4922,20 @@ template {
   height: auto;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-horizontalRow
+  button:hover {
   background-color: #333 !important;
   border-color: #333 !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox] {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
   position: absolute;
@@ -3522,7 +4946,11 @@ template {
   overflow: visible;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  .label-description {
   color: #000;
   display: block;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -3533,7 +4961,11 @@ template {
   vertical-align: top;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  label {
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -3543,12 +4975,22 @@ template {
   padding-left: 24px;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label a {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  label
+  a {
   color: #000;
   text-decoration: underline;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  label
+  p {
   color: #000 !important;
   font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
   font-size: 12px !important;
@@ -3558,17 +5000,29 @@ template {
   margin: 0 5px 0 0 !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p:last-child {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow
+  label
+  p:last-child {
   margin: 0;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit {
   margin: 0 0 20px 0;
   float: left;
   width: 100%;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit
+  button {
   background-color: #ffc144 !important;
   border: none !important;
   border-radius: 4px !important;
@@ -3585,18 +5039,27 @@ template {
   box-sizing: border-box !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit
+  button.loading {
   display: none;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedSubmit
+  button:hover {
   background-color: #333 !important;
 }
 
 .ml-subscribe-close {
   width: 30px;
   height: 30px;
-  background: url(https://assets.mlcdn.com/ml/images/default/modal_close.png) no-repeat;
+  background: url(https://assets.mlcdn.com/ml/images/default/modal_close.png)
+    no-repeat;
   background-size: 30px;
   cursor: pointer;
   margin-top: -10px;
@@ -3606,7 +5069,9 @@ template {
   right: 0;
 }
 
-.ml-error input, .ml-error select, .ml-error textarea {
+.ml-error input,
+.ml-error select,
+.ml-error textarea {
   border-color: red !important;
 }
 
@@ -3616,16 +5081,31 @@ template {
   padding: 10px;
 }
 
-.ml-error .label-description, .ml-error .label-description p, .ml-error .label-description p a, .ml-error label:first-child {
+.ml-error .label-description,
+.ml-error .label-description p,
+.ml-error .label-description p a,
+.ml-error label:first-child {
   color: red !important;
 }
 
-#mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p, #mlb2-6054651.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p:first-letter {
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow.ml-error
+  .label-description
+  p,
+#mlb2-6054651.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-checkboxRow.ml-error
+  .label-description
+  p:first-letter {
   color: red !important;
 }
 
 @media only screen and (max-width: 400px) {
-  .ml-form-embedWrapper.embedDefault, .ml-form-embedWrapper.embedPopup {
+  .ml-form-embedWrapper.embedDefault,
+  .ml-form-embedWrapper.embedPopup {
     width: 100% !important;
   }
   .ml-form-formContent.horozintalForm {
@@ -3636,10 +5116,15 @@ template {
     width: 100% !important;
     float: left !important;
   }
-  .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
+  .ml-form-formContent.horozintalForm
+    .ml-form-horizontalRow
+    .ml-input-horizontal {
     width: 100% !important;
   }
-  .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div {
+  .ml-form-formContent.horozintalForm
+    .ml-form-horizontalRow
+    .ml-input-horizontal
+    > div {
     padding-right: 0 !important;
     padding-bottom: 10px;
   }
@@ -3789,7 +5274,7 @@ template {
 .about__section4__container {
   padding: 10rem 0 10rem 0;
   width: 100%;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   z-index: -1;
 }
 @media (min-width: 992px) {
@@ -3807,7 +5292,7 @@ template {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  background-color: #D21E27;
+  background-color: #d21e27;
   align-items: center;
   position: relative;
 }
@@ -3830,7 +5315,7 @@ template {
 
 .map__section {
   width: 100%;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 .map__wrapper {
@@ -3874,7 +5359,7 @@ template {
   text-align: justify;
 }
 .map__wrapper .map__left .left__text .text__first {
-  background-color: #F9B843;
+  background-color: #f9b843;
   padding: 1.5rem 1.5rem 4rem 1.5rem;
   border-radius: 32px 0;
   margin: 0;
@@ -3894,7 +5379,11 @@ template {
   position: relative;
 }
 @media (min-width: 992px) {
-  .map__wrapper .map__left .left__text .text__bottom .text__bottom--first::after {
+  .map__wrapper
+    .map__left
+    .left__text
+    .text__bottom
+    .text__bottom--first::after {
     content: "";
     position: absolute;
     left: -2.9rem;
@@ -3909,12 +5398,16 @@ template {
   position: relative;
 }
 @media (min-width: 992px) {
-  .map__wrapper .map__left .left__text .text__bottom .text__bottom--second::after {
+  .map__wrapper
+    .map__left
+    .left__text
+    .text__bottom
+    .text__bottom--second::after {
     content: "";
     position: absolute;
     left: -2.9rem;
     top: 0;
-    background-color: #F27622;
+    background-color: #f27622;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -3940,7 +5433,7 @@ template {
 
 .form {
   padding: 7rem 5rem;
-  background-color: #F9B843;
+  background-color: #f9b843;
   max-width: 915px;
   margin: 5rem auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -3980,24 +5473,33 @@ template {
 .form__form input {
   height: 4rem;
 }
-.form__form input, .form__form textarea {
+.form__form input,
+.form__form textarea {
   border-radius: 8px;
   margin-bottom: 4rem;
   padding-left: 1rem;
   font-size: 1.6rem;
   border: none;
 }
-.form__form input:active, .form__form input:focus, .form__form textarea:active, .form__form textarea:focus {
+.form__form input:active,
+.form__form input:focus,
+.form__form textarea:active,
+.form__form textarea:focus {
   outline: none;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  box-shadow:
+    rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .form__form button {
   border: none;
   border-radius: 10px;
   padding: 1rem 2rem;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  box-shadow:
+    rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   font-size: 1.4rem;
-  background-color: #D21E27;
+  background-color: #d21e27;
   color: white;
   display: block;
   margin: 0 auto;
@@ -4010,7 +5512,7 @@ template {
 .form__form button::placeholder {
   font-weight: 600;
   padding-left: 0rem;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 .sales__team {
@@ -4023,7 +5525,9 @@ template {
   margin: 0 auto;
   margin-top: 5rem;
   padding: 5rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow:
+    rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 @media (min-width: 768px) {
   .sales__team {
@@ -4045,7 +5549,9 @@ template {
   text-align: center;
   border-radius: 8px;
   background-color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   position: relative;
 }
 .sales__team .team__photo__container:hover {
@@ -4078,13 +5584,14 @@ template {
 }
 .sales__team .team__photo__container img {
   width: 100%;
+  -webkit-user-select: none;
   user-select: none;
   -webkit-user-drag: none;
 }
 
 .blog__container {
   width: 100%;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .blog__wrapper {
@@ -4109,9 +5616,11 @@ template {
 .blog__wrapper .blog__wrapper--container {
   width: 100%;
   padding: 1rem;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow:
+    rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .blog__wrapper .blog__wrapper--container a {
   color: black;
@@ -4139,7 +5648,7 @@ template {
 .recipe__wrapper {
   max-width: 915px;
   margin: 0 auto;
-  color: #3B5815;
+  color: #3b5815;
 }
 .recipe__wrapper .recipe__img--container {
   margin: 0 10%;
@@ -4206,7 +5715,7 @@ template {
 }
 
 .cucumber__title {
-  color: #3B5815;
+  color: #3b5815;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -4215,7 +5724,7 @@ template {
 .cucumber_list--order li {
   list-style: initial;
   font-size: 1.8rem;
-  color: #7D6C6F;
+  color: #7d6c6f;
   margin-bottom: 2rem;
 }
 

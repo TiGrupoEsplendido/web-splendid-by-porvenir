@@ -1,0 +1,121 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.galeria-titulo {
+    margin-top: 13rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+
+.my-slider {
+    cursor: grab;
+
+    &:active {
+        cursor: grabbing;
+    }
+
+    .tns-item {
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 500px;
+        }
+    }
+
+
+}
+
+
+
+.tns-nav-active {
+    background-color: #f6b53e !important;
+
+    transform: scale(1.2);
+    /* Establece un zoom del 20% */
+    transition: transform 0.3s ease;
+}
+
+.tns-inner {
+    position: relative;
+
+
+}
+
+
+.contenedor-galeria {
+    position: relative;
+    // background-color: v.$verde-bajo-jaguar;
+    background-image: url(../../img/estructura/fondo-4.png);
+    background-position: top;
+    background-size: cover;
+    // margin-top: 100dvh;
+    .tns-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        position: absolute;
+        top: 550px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        z-index: 1;
+        justify-content: center;
+
+        @include m.pc {
+            top: 550px;
+        }
+        button {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: none;
+            background-color: v.$verde-fuerteXL-jaguar;
+            // border: solid 1px red;
+        }
+       
+    }
+
+    .tns-controls {
+        position: absolute;
+        z-index: 1000;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 490px;
+        z-index: 2;
+        @include m.tablet {
+            bottom: -2.5rem;
+            left: 50%;
+
+        }
+
+        @include m.laptop {
+            bottom: -2.5rem;
+            
+        }
+
+        button {
+            padding: 1rem 1rem;
+            background-color: #f6b53e;
+            border-radius: 40%;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: 900;
+            &:hover {
+                background-color: darken(#f6b53e, 20);
+
+            }
+
+            &:active {
+                transform: translateY(2px);
+            }
+
+
+            &:nth-child(2) {
+                margin-left: 1rem;
+            }
+        }
+    }
+}

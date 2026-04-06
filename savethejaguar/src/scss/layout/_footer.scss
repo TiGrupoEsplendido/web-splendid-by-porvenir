@@ -1,0 +1,123 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    z-index: 1000;
+    @include m.laptop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 3rem 0;
+    }
+
+    .modificarlogo {
+        min-width: 200px;
+        max-width: 200px;
+
+        @include m.laptop {
+            min-width: 240px;
+            max-width: 200px;
+        }
+
+    }
+
+    .footer-txt {
+        margin-top: 5rem;
+        text-align: center;
+        font-size: 1.8rem;
+
+        @include m.laptop {
+          margin-top: unset;
+          text-align: start;
+        }
+
+        span {
+            margin-left: 1rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.footer-derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    @include m.laptop {
+        width: unset;
+    }
+
+    p {
+        font-size: 2rem;
+        margin: 0;
+        font-style: italic;
+    }
+
+    .logo-grupo {
+        width: 50%;
+        max-width: 350px;
+        min-width: 300px;
+        margin-top: 2rem;
+
+        @include m.laptop {
+            width: 90%;
+        }
+    }
+}
+
+.div-iconos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 150px;
+    filter: invert(1);
+
+    a {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    border: solid 3px white;
+    font-size: 1.6rem;
+
+    input {
+        background-color: transparent;
+        border: none;
+
+        &::placeholder {
+            color: white;
+            padding-left: 1rem;
+        }
+    }
+
+    p {
+        margin: 0;
+        font-size: 1.7rem;
+    }
+
+    .contacto-btn {
+        background-color: #FFC84D;
+        height: 100%;
+        padding: 0.2rem;
+        border-left: solid 3px white;
+
+    }
+
+
+
+
+}

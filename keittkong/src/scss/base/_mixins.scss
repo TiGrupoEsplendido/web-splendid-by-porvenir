@@ -1,0 +1,37 @@
+@use '../base/variables' as v; 
+/*┌───────────────────────────────────────────── ∘°Media Queries°∘ ─────────────────────────────────────────────┐*/
+
+@mixin celular{
+    @media(min-width: v.$t480) {
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media(min-width: v.$t768) {
+        @content;
+    }
+}
+
+@mixin tablet-grande{
+    @media(min-width: v.$t992) {
+        @content;
+    }
+}
+
+@mixin laptop{
+    @media(min-width: v.$t1200) {
+        @content;
+    }
+}
+@mixin mac{
+    @media(min-width: v.$t1440) {
+        @content;
+    }
+}
+@mixin pc{
+    @media(min-width: v.$t1441) {
+        @content;
+    }
+}
+

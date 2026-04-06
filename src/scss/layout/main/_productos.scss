@@ -1,64 +1,69 @@
-@use '../../base/variables' as v; 
-@use '../../base/mixins' as m;
+@use "../../base/variables" as v;
+@use "../../base/mixins" as m;
 
-.productos__container{
+.productos__container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-color: #E5E5E5;
-  h4{
+  background-color: #e5e5e5;
+  h4 {
     font-size: 3rem;
     margin-top: 8rem;
     font-weight: 700;
-    color: #D21E27;
+    color: #d21e27;
     margin-bottom: 5rem;
   }
 
-  p{
+  p {
     font-size: 16px;
   }
 
-  .productos__logo__container{
+  .productos__logo__container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
     margin-top: 5rem;
-    .productos__logos{
+    -webkit-user-select: none;
+    user-select: none;
+    .productos__logos {
       width: 100%;
       max-width: 250px;
-      background-color: #D1111C;
+      background-color: #d1111c;
       aspect-ratio: 1 / 1;
       filter: brightness(0.5);
       transition: filter 0.3s ease-in-out;
       display: flex;
       align-items: center;
-      &:hover{
+      &:hover {
         cursor: pointer;
         filter: brightness(1);
         border: groove 5px white;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
+        box-shadow:
+          rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
       }
     }
   }
 }
 
 //!┌ ∘°Secciones y contenedores de la informacion°∘ ─────────────────────────────────────────────┐!//
-.productos__logos-active{
+.productos__logos-active {
   filter: brightness(1) !important;
   transition: inherit;
 }
 
-.products__background{
-  background-color: #F9B843;
+.products__background {
+  background-color: #f9b843;
 }
 
 .products__background {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.5s ease, visibility 0s 0.5s; /* Hace el fade y da el tiempo para que se oculte completamente */
+  transition:
+    opacity 0.5s ease,
+    visibility 0s 0.5s; /* Hace el fade y da el tiempo para que se oculte completamente */
 }
 
 .products__background.visible {
@@ -67,60 +72,56 @@
   transition: opacity 0.5s ease; /* Fade-in de la sección */
 }
 
-
 //!┌ ∘°Swaipa°∘ ─────────────────────────────────────────────┐!//
 
-
-.products__wrapper{
-  .swiper2{
-    
+.products__wrapper {
+  .swiper2 {
     padding: 3rem 0 3rem;
     @include m.tablet {
-      
       padding: 3rem 0 10rem;
     }
     @include m.laptop {
       margin: 0 25%;
     }
-    .swiper-slide{
+    .swiper-slide {
       display: flex;
       justify-content: center;
       align-items: center;
       cursor: grab;
 
-      &:active{
+      &:active {
         cursor: grabbing;
       }
-      .slide__container{
+      .slide__container {
         margin: 0 10%;
 
         @include m.tablet {
           margin: unset;
         }
 
-        p{
+        p {
           margin: 4rem 0 2rem 0;
           font-size: 2rem;
           color: black;
           font-weight: 500;
         }
 
-        .productos__logo{
+        .productos__logo {
           width: 100px;
           margin: 2rem 0 2rem 0;
           font-family: v.$font-family-roboto;
         }
 
-        .productos__logo--jaguar{
+        .productos__logo--jaguar {
           width: 80px;
           margin: 2rem 0 1rem 0;
         }
-        .productos__logo--kong{
+        .productos__logo--kong {
           width: 80px;
           margin: 2rem 0 1rem 0;
         }
 
-        .productos__boton{
+        .productos__boton {
           display: block;
           margin: auto;
           border: none;
@@ -128,14 +129,14 @@
           font-size: 1.6rem;
           border-radius: 50px;
           font-weight: 700;
-          background-color: #FF2929;
+          background-color: #ff2929;
           color: white;
-          
-          &:hover{
+
+          &:hover {
             background-color: #d92323;
           }
 
-          &:active{
+          &:active {
             transform: scale(0.9);
           }
         }
@@ -143,56 +144,54 @@
     }
   }
 }
-.products__wrapper{
-  .swiper2_2{
-    
+.products__wrapper {
+  .swiper2_2 {
     padding: 3rem 0 3rem;
     @include m.tablet {
-      
       padding: 3rem 0 10rem;
     }
     @include m.laptop {
       margin: 0 25%;
     }
-    .swiper-slide{
+    .swiper-slide {
       display: flex;
       justify-content: center;
       align-items: center;
       cursor: grab;
 
-      &:active{
+      &:active {
         cursor: grabbing;
       }
-      .slide__container{
+      .slide__container {
         margin: 0 10%;
 
         @include m.tablet {
           margin: unset;
         }
 
-        p{
+        p {
           margin: 4rem 0 2rem 0;
           font-size: 2rem;
           color: black;
           font-weight: 500;
         }
 
-        .productos__logo{
+        .productos__logo {
           width: 100px;
           margin: 2rem 0 2rem 0;
           font-family: v.$font-family-roboto;
         }
 
-        .productos__logo--jaguar{
+        .productos__logo--jaguar {
           width: 80px;
           margin: 2rem 0 1rem 0;
         }
-        .productos__logo--kong{
+        .productos__logo--kong {
           width: 80px;
           margin: 2rem 0 1rem 0;
         }
 
-        .productos__boton{
+        .productos__boton {
           display: block;
           margin: auto;
           border: none;
@@ -200,14 +199,14 @@
           font-size: 1.6rem;
           border-radius: 50px;
           font-weight: 700;
-          background-color: #FF2929;
+          background-color: #ff2929;
           color: white;
-          
-          &:hover{
+
+          &:hover {
             background-color: #d92323;
           }
 
-          &:active{
+          &:active {
             transform: scale(0.9);
           }
         }
@@ -215,23 +214,20 @@
     }
   }
 }
-
-
 
 .swiper2 .swiper-button-next,
 .swiper2 .swiper-button-prev {
-  color: #D1111C;  
+  color: #d1111c;
   top: 18rem;
 }
 .swiper2_2 .swiper-button-next,
 .swiper2_2 .swiper-button-prev {
-  color: #D1111C;  
+  color: #d1111c;
   top: 18rem;
 }
 
-
 //!┌ ∘°Teporadas°∘ ─────────────────────────────────────────────┐!//
-.temporada__map{
+.temporada__map {
   width: 100%;
   margin: auto;
   margin-top: 3rem;

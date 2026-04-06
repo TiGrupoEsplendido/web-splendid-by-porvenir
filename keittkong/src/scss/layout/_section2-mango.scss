@@ -1,0 +1,172 @@
+@use '../base/variables' as v; 
+@use '../base/mixins' as m;
+
+.section2-mango{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%; 
+  
+  @include m.tablet {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+  
+  }
+  //!┌───────────────────────────────────────────── ∘°Primera°∘ ─────────────────────────────────────────────┐!//
+  .mango__text{
+    padding: 1rem;
+    margin-top: 5vh;
+    text-align: center;
+    
+    @include m.tablet {
+        text-align: start;
+    }
+    @include m.laptop {
+      margin-top: 20vh;
+      margin-left: 10rem;  
+      min-width: 400px;
+      
+    }
+    h3{
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: v.$rojo;
+      @include m.laptop {
+        text-align: start;
+        font-size: 4.8rem;
+        letter-spacing: 0.1rem;
+      }
+    }
+
+    .text__container{
+      margin: 0 8%;
+      text-align: justify;
+      @include m.tablet {
+        width: 400px;
+        margin: unset;
+      }
+      @include m.laptop {
+        width: 500px;
+        margin: unset;
+          
+      }
+      p{
+        font-size: 1.6rem;
+        line-height: 1.5rem;
+        @include m.tablet {
+          text-align: justify;
+      }
+        @include m.laptop {
+          text-align: justify;
+          line-height: unset;
+          font-size: 2.5rem;
+          width: 100%;
+        }
+      }
+
+    }
+  }
+//!┌───────────────────────────────────────────── ∘°Derecha°∘ ─────────────────────────────────────────────┐!//
+  .mango__img-mango{
+    position: relative;
+    height: 100%;
+    @include m.laptop {
+      margin-right: 10rem;
+      min-width: 400px;
+
+    }
+    .mango__section2{
+      display: block;
+      margin: auto;
+      width: 100%;
+      max-width: 220px;
+
+      @include m.laptop {
+          margin-top: 5rem;
+          visibility: hidden;
+        }
+    }
+
+    .globo1{
+      display: none;
+      @include m.mac {
+        position: absolute;
+        display: inline;
+        width: 55%;
+        right: -20rem;
+        top: 35rem;
+        z-index: 100;
+        animation: flotar 2s infinite ease-in-out alternate-reverse;
+      }
+      @include m.pc {
+        position: absolute;
+        display: inline;
+        width: 80%;
+        right: -27rem;
+        top: 26rem;
+        z-index: 100;
+        animation: flotar 2s infinite ease-in-out alternate-reverse;
+      }
+    }
+    
+    .globo2{     
+      display: none; 
+      @include m.mac {
+        position: absolute;
+        display: inline;
+        width: 55%;
+        right: 25rem;
+        top: 20rem;
+        z-index: 100;
+        animation: flotar 2s infinite ease-in-out alternate-reverse;
+      }
+      @include m.pc {
+        position: absolute;
+        display: inline;
+        width: 60%;
+        top: 15rem;
+        left: -17rem;
+        z-index: 100;
+        animation: flotar 1s infinite ease-in alternate-reverse;      
+      }
+    }
+    .globo3{      
+      display: none;
+      @include m.mac {
+        display: inline;
+        width: 50%;
+        position: absolute;
+        top: 20rem;
+        right: -20rem;
+        z-index: 100;
+        animation: flotar 3s infinite ease-in alternate-reverse;          
+      }
+      @include m.pc {
+        display: inline;
+        width: 60%;
+        position: absolute;
+        top: 10rem;
+        right: -15rem;
+        z-index: 100;
+        animation: flotar 3s infinite ease-in alternate-reverse;
+          
+      }
+    }
+    
+  }
+
+
+}
+
+//!┌───────────────────────────────────────────── ∘°animaciones°∘ ─────────────────────────────────────────────┐!//
+
+@keyframes flotar {
+  0%{
+    transform: translateY(1rem);
+  }
+  100%{
+    transform: translateY(-1rem);    
+  }
+}
