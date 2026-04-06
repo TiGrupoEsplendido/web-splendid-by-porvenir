@@ -1,9 +1,9 @@
-@use '../../base/variables' as v; 
-@use '../../base/mixins' as m;
+@use "../../base/variables" as v;
+@use "../../base/mixins" as m;
 
-.email-tel{
-  width: 100%; 
-  background-color: #F2F2F2; 
+.email-tel {
+  width: 100%;
+  background-color: #f2f2f2;
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
@@ -15,26 +15,23 @@
     display: flex;
     gap: 5rem;
     justify-content: flex-end;
-
-    
   }
-  .email{
+  .email {
     font-size: 1.3rem;
     color: black;
   }
-  .tel{
-    background-color: #D1111C;
+  .tel {
+    background-color: #d1111c;
     padding: 1rem 2rem;
     border-radius: 50px;
     @include m.celular {
       margin-right: 5rem;
-      
     }
-    
-    i{
+
+    i {
       color: white;
     }
-    a{
+    a {
       padding-left: 0.5rem;
       color: white;
       font-family: v.$font-family-roboto;
@@ -44,14 +41,14 @@
   }
 }
 
-.header__text--container{
+.header__text--container {
   display: none;
 
   @include m.tablet-grande {
     display: block;
   }
 }
-.header__container{
+.header__container {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -66,43 +63,41 @@
     justify-content: space-around;
     padding-top: 1rem;
     z-index: 2;
-    
   }
-  .header__lista{
+  .header__lista {
     display: flex;
     gap: 2.5rem;
     color: white;
     font-size: 1.5rem;
-    li{
+    li {
       color: black;
       font-family: v.$font-family-roboto;
       font-weight: 700;
       font-size: 1.5rem;
-      a{
+      a {
         color: black;
         text-decoration: none;
       }
     }
   }
 
-  .hamburger{
+  .hamburger {
     z-index: 2;
     @include m.tablet-grande {
       display: none;
     }
   }
 
-  .logo{
+  .logo {
     width: 10rem;
   }
 }
 
-.hamburger-box{
-
+.hamburger-box {
 }
 //!┌ ∘°Off-Canva°∘ ─────────────────────────────────────────────┐!//
 
-.off-canva{
+.off-canva {
   position: absolute;
   right: 0;
   top: 0;
@@ -121,31 +116,31 @@
     display: none;
   }
 
-  img{
+  img {
     width: 250px;
     margin-bottom: 3rem;
   }
-  a{
+  a {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 2.8rem;
     color: black;
   }
 
-  .off-canva__redes{
+  .off-canva__redes {
     display: flex;
     gap: 1rem;
     margin-top: 2.5rem;
-    i{
+    i {
       font-size: 2rem;
       border-radius: 50%;
-      background-color: #D1111C;
+      background-color: #d1111c;
       padding: 1.5rem;
     }
   }
 }
 
-.off-canva--active{
+.off-canva--active {
   top: -100vh; /* Mueve a la parte inferior de la pantalla */
   right: -100%; /* Sale de la pantalla */
   left: 0;
